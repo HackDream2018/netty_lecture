@@ -16,7 +16,7 @@ import io.netty.util.concurrent.GlobalEventExecutor;
 public class WeChatServerHandler extends ChannelInboundHandlerAdapter {
 
     // 管道组, 用于存储多个管道
-    private ChannelGroup channelGroup = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
+    private static ChannelGroup channelGroup = new DefaultChannelGroup(GlobalEventExecutor.INSTANCE);
 
     /**
      * 监听处理器加入后执行
@@ -24,8 +24,8 @@ public class WeChatServerHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
         Channel channel = ctx.channel();
-        // 遍历所有管道组里的管道(服务端广播客户端管道)
-        channelGroup.writeAndFlush("[server] -" + channel.remoteAddress() + "join\n");
+        // 服务端广播客户端管道, 将此管道广播到其他管道中
+        channelGroup.writeAndFlush("[server] -" + channel.remoteAddress() + " join\n");
         // 将新加入的管道加入到管道组
         channelGroup.add(channel);
     }
@@ -36,8 +36,8 @@ public class WeChatServerHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
         Channel channel = ctx.channel();
-        // 遍历所有管道组里的管道(服务端广播客户端管道)
-        channelGroup.writeAndFlush("[server] -" + channel.remoteAddress() + "leave\n");
+        // 服务端广播客户端管道, 将此管道广播到其他管道中
+        channelGroup.writeAndFlush("[server] -" + channel.remoteAddress() + " leave\n");
         // netty会自动将断开的处理器从管道组中移除
     }
 
@@ -47,7 +47,7 @@ public class WeChatServerHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         Channel channel = ctx.channel();
-        System.out.println(channel.remoteAddress() + "online");
+        System.out.println(channel.remoteAddress() + " online");
     }
 
 
@@ -57,7 +57,7 @@ public class WeChatServerHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
         Channel channel = ctx.channel();
-        System.out.println(channel.remoteAddress() + "disconnect");
+        System.out.println(channel.remoteAddress() + " disconnect");
     }
 
     /**
@@ -66,12 +66,12 @@ public class WeChatServerHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         Channel channel = ctx.channel();
-        // 发送消息的客户端的地址要区别开(广播管道组的管道)
+        // 发送消息的客户端的地址要区别开(遍历管道组)
         channelGroup.forEach(item -> {
             if(channel != item) {
-                ctx.writeAndFlush(String.format("[%s]send content: %s \n", channel.remoteAddress(), msg));
+                item.writeAndFlush(String.format("[%s] send content: %s \n", channel.remoteAddress(), (String)msg));
             }else {
-                ctx.writeAndFlush(String.format("myself send content: %s \n", msg));
+                item.writeAndFlush(String.format("myself send content: %s \n", (String)msg));
             }
         });
     }
