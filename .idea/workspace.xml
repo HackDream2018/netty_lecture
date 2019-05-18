@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a2a29ef-4929-4914-b5e3-5ea5938ff41b" name="Default Changelist" comment="单个服务端对应多个客户端进行通信">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventServer.java" afterDir="false" />
+    <list default="true" id="3a2a29ef-4929-4914-b5e3-5ea5938ff41b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/TT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/third/WeChatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/third/WeChatServerHandler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -70,53 +70,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-              <folding>
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#1389#1390#0" expanded="true" />
-                <element signature="e#1436#1437#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/TT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WechatClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="325">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -133,6 +91,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>遍历所有管道组里的管道</find>
+      <find>putVal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,13 +121,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WeChatServerFilter.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/TT.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WeChatClientFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WechatClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WeChatServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WeChatServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WeChatClientHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WechatClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/TT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/TT2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/TT.java" />
       </list>
     </option>
   </component>
@@ -187,8 +149,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-120" />
-    <option name="y" value="264" />
+    <option name="x" value="-279" />
+    <option name="y" value="202" />
     <option name="width" value="1932" />
     <option name="height" value="1056" />
   </component>
@@ -282,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WechatClient">
+  <component name="RunManager" selected="Application.TT2">
     <configuration name="IdleEventServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.fourth.IdleEventServer" />
       <module name="netty_lecture_main" />
@@ -309,12 +271,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.second.SocketServer" />
+    <configuration name="TT2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.third.TT2" />
       <module name="netty_lecture_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marketshrimp.netty.second.*" />
+          <option name="PATTERN" value="com.marketshrimp.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,7 +289,7 @@
       <module name="netty_lecture_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marketshrimp.netty.third.*" />
+          <option name="PATTERN" value="com.marketshrimp.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,7 +302,7 @@
       <module name="netty_lecture_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marketshrimp.netty.third.*" />
+          <option name="PATTERN" value="com.marketshrimp.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,19 +311,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SocketServer" />
       <item itemvalue="Application.SocketClient" />
       <item itemvalue="Application.WeChatServer" />
       <item itemvalue="Application.WechatClient" />
       <item itemvalue="Application.IdleEventServer" />
+      <item itemvalue="Application.TT2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TT2" />
         <item itemvalue="Application.IdleEventServer" />
         <item itemvalue="Application.WechatClient" />
         <item itemvalue="Application.WeChatServer" />
         <item itemvalue="Application.SocketClient" />
-        <item itemvalue="Application.SocketServer" />
       </list>
     </recent_temporary>
   </component>
@@ -384,6 +346,7 @@
       <workItem from="1556946886515" duration="153000" />
       <workItem from="1556947062955" duration="17795000" />
       <workItem from="1557633235441" duration="7550000" />
+      <workItem from="1558141828735" duration="2271000" />
     </task>
     <task id="LOCAL-00001" summary="netty第一次">
       <created>1557018612914</created>
@@ -406,11 +369,18 @@
       <option name="project" value="LOCAL" />
       <updated>1557019499704</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="12321313">
+      <created>1557664100116</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557664100116</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46537000" />
+    <option name="totallyTimeSpent" value="68874000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,9 +392,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1924307" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19402985" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -433,8 +404,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3363029" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986637" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.31959912" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3986637" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32925472" />
@@ -455,38 +426,6 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1924307" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3363029" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986637" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32925472" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32925472" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32925472" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32925472" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.23560767" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.4619403" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -495,53 +434,29 @@
     <option name="SHOW_PATCH_IN_EXPLORER" value="false" />
     <MESSAGE value="netty第一次" />
     <MESSAGE value="netty第一次发" />
-    <option name="LAST_COMMIT_MESSAGE" value="netty第一次发" />
+    <MESSAGE value="12321313" />
+    <option name="LAST_COMMIT_MESSAGE" value="12321313" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>credit.divide(d, 6).setScale(5, BigDecimal.ROUND_HALF_UP)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>credit.divide(d, 6).setScale(5, BigDecimal.ROUND_HALF_UP))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>credit.divide(d, 6)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/lib/gradle-core-api-5.4.1.jar!/org/gradle/api/artifacts/dsl/DependencyHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#2521#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/lib/plugins/gradle-plugins-5.4.1.jar!/org/gradle/api/plugins/JavaPluginConvention.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/lib/gradle-core-api-5.4.1.jar!/org/gradle/api/artifacts/dsl/RepositoryHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/194c47ffd2525ec0a1caf8f070321ce7629ca1d8/netty-all-4.1.36.Final-sources.jar!/io/netty/handler/codec/http/HttpVersion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="150" column="12" selection-start-line="150" selection-start-column="12" selection-end-line="150" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/194c47ffd2525ec0a1caf8f070321ce7629ca1d8/netty-all-4.1.36.Final-sources.jar!/io/netty/handler/codec/http/HttpHeaderNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="125" column="36" selection-start-line="125" selection-start-column="36" selection-end-line="125" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/194c47ffd2525ec0a1caf8f070321ce7629ca1d8/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
@@ -849,29 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-          <folding>
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WechatClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -889,6 +781,143 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+          <folding>
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/Hashtable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="361" column="23" selection-start-line="361" selection-start-column="11" selection-end-line="361" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="2587" column="8" lean-forward="true" selection-start-line="2587" selection-start-column="8" selection-end-line="2587" selection-end-column="60" />
+          <folding>
+            <element signature="e#101602#101603#0" expanded="true" />
+            <element signature="e#101649#101650#0" expanded="true" />
+            <element signature="e#102253#102254#0" expanded="true" />
+            <element signature="e#102315#102316#0" expanded="true" />
+            <element signature="e#102875#102876#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
+          <folding>
+            <element signature="docComment;class#ArrayList#0" />
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/lang/Cloneable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="278" column="17" selection-start-line="278" selection-start-column="17" selection-end-line="278" selection-end-column="17" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+            <element signature="e#24329#24330#0" expanded="true" />
+            <element signature="e#24394#24395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="191" column="43" selection-start-line="191" selection-start-column="36" selection-end-line="191" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/TT2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <element signature="class#WoMan#0" />
+            <element signature="class#Man#0" />
+            <element signature="class#Person#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WechatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/TT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
         </state>
       </provider>
     </entry>
