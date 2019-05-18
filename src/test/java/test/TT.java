@@ -1,8 +1,5 @@
 package test;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @version v1.0
  * @author: TianXiang
@@ -12,11 +9,8 @@ import java.util.List;
 public class TT {
 
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
-        list.forEach(item -> {
-             System.out.println(item);
-        });
-         System.out.println("1111");
+        String str = "tian\nxiang";
+         System.out.println(str);
     }
     
 }
