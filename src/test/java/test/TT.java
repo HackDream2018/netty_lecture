@@ -1,5 +1,8 @@
 package test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @version v1.0
  * @author: TianXiang
@@ -9,8 +12,8 @@ package test;
 public class TT {
 
     public static void main(String[] args) {
-        String str = "tian\nxiang";
-         System.out.println(str);
+        List<String> list = new ArrayList<>();
+         System.out.println(list.get(0));
     }
     
 }
