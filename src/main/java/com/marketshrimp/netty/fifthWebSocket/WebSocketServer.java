@@ -13,6 +13,7 @@ import java.net.InetSocketAddress;
  * @version v1.0
  * @author: TianXiang
  * @description: 服务端将http请求升级为websocket
+ *              客户端:client.xml页面
  * @date: 2019/5/4
  */
 public class WebSocketServer {
