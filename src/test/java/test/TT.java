@@ -1,7 +1,6 @@
 package test;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Date;
 
 /**
  * @version v1.0
@@ -12,11 +11,10 @@ import java.util.List;
 public class TT {
 
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
-        list.forEach(item -> {
-             System.out.println(item);
-        });
-         System.out.println("1111");
+         System.out.println(new Date(System.currentTimeMillis()));
+       System.out.println(new Date(System.currentTimeMillis() + (60 * 60 * 2 * 1000) + 1));
+        System.out.println("100" + 10L);
+        System.out.println(100L + "100");
     }
     
 }
