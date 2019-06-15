@@ -14,20 +14,1136 @@ public final class MyDataInfo {
     registerAllExtensions(
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
+  public interface MyMessageOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:tutorial.MyMessage)
+      com.google.protobuf.MessageOrBuilder {
+
+    /**
+     * <code>required .tutorial.MyMessage.DataType data_type = 1;</code>
+     */
+    boolean hasDataType();
+    /**
+     * <code>required .tutorial.MyMessage.DataType data_type = 1;</code>
+     */
+    com.example.tutorial.MyDataInfo.MyMessage.DataType getDataType();
+
+    /**
+     * <code>optional .tutorial.Person person = 2;</code>
+     */
+    boolean hasPerson();
+    /**
+     * <code>optional .tutorial.Person person = 2;</code>
+     */
+    com.example.tutorial.MyDataInfo.Person getPerson();
+    /**
+     * <code>optional .tutorial.Person person = 2;</code>
+     */
+    com.example.tutorial.MyDataInfo.PersonOrBuilder getPersonOrBuilder();
+
+    /**
+     * <code>optional .tutorial.Animal Animal = 3;</code>
+     */
+    boolean hasAnimal();
+    /**
+     * <code>optional .tutorial.Animal Animal = 3;</code>
+     */
+    com.example.tutorial.MyDataInfo.Animal getAnimal();
+    /**
+     * <code>optional .tutorial.Animal Animal = 3;</code>
+     */
+    com.example.tutorial.MyDataInfo.AnimalOrBuilder getAnimalOrBuilder();
+
+    public com.example.tutorial.MyDataInfo.MyMessage.DataBodyCase getDataBodyCase();
+  }
+  /**
+   * Protobuf type {@code tutorial.MyMessage}
+   */
+  public  static final class MyMessage extends
+      com.google.protobuf.GeneratedMessageV3 implements
+      // @@protoc_insertion_point(message_implements:tutorial.MyMessage)
+      MyMessageOrBuilder {
+  private static final long serialVersionUID = 0L;
+    // Use MyMessage.newBuilder() to construct.
+    private MyMessage(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+      super(builder);
+    }
+    private MyMessage() {
+      dataType_ = 1;
+    }
+
+    @java.lang.Override
+    public final com.google.protobuf.UnknownFieldSet
+    getUnknownFields() {
+      return this.unknownFields;
+    }
+    private MyMessage(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      this();
+      if (extensionRegistry == null) {
+        throw new java.lang.NullPointerException();
+      }
+      int mutable_bitField0_ = 0;
+      com.google.protobuf.UnknownFieldSet.Builder unknownFields =
+          com.google.protobuf.UnknownFieldSet.newBuilder();
+      try {
+        boolean done = false;
+        while (!done) {
+          int tag = input.readTag();
+          switch (tag) {
+            case 0:
+              done = true;
+              break;
+            case 8: {
+              int rawValue = input.readEnum();
+                @SuppressWarnings("deprecation")
+              com.example.tutorial.MyDataInfo.MyMessage.DataType value = com.example.tutorial.MyDataInfo.MyMessage.DataType.valueOf(rawValue);
+              if (value == null) {
+                unknownFields.mergeVarintField(1, rawValue);
+              } else {
+                bitField0_ |= 0x00000001;
+                dataType_ = rawValue;
+              }
+              break;
+            }
+            case 18: {
+              com.example.tutorial.MyDataInfo.Person.Builder subBuilder = null;
+              if (dataBodyCase_ == 2) {
+                subBuilder = ((com.example.tutorial.MyDataInfo.Person) dataBody_).toBuilder();
+              }
+              dataBody_ =
+                  input.readMessage(com.example.tutorial.MyDataInfo.Person.PARSER, extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((com.example.tutorial.MyDataInfo.Person) dataBody_);
+                dataBody_ = subBuilder.buildPartial();
+              }
+              dataBodyCase_ = 2;
+              break;
+            }
+            case 26: {
+              com.example.tutorial.MyDataInfo.Animal.Builder subBuilder = null;
+              if (dataBodyCase_ == 3) {
+                subBuilder = ((com.example.tutorial.MyDataInfo.Animal) dataBody_).toBuilder();
+              }
+              dataBody_ =
+                  input.readMessage(com.example.tutorial.MyDataInfo.Animal.PARSER, extensionRegistry);
+              if (subBuilder != null) {
+                subBuilder.mergeFrom((com.example.tutorial.MyDataInfo.Animal) dataBody_);
+                dataBody_ = subBuilder.buildPartial();
+              }
+              dataBodyCase_ = 3;
+              break;
+            }
+            default: {
+              if (!parseUnknownField(
+                  input, unknownFields, extensionRegistry, tag)) {
+                done = true;
+              }
+              break;
+            }
+          }
+        }
+      } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+        throw e.setUnfinishedMessage(this);
+      } catch (java.io.IOException e) {
+        throw new com.google.protobuf.InvalidProtocolBufferException(
+            e).setUnfinishedMessage(this);
+      } finally {
+        this.unknownFields = unknownFields.build();
+        makeExtensionsImmutable();
+      }
+    }
+    public static final com.google.protobuf.Descriptors.Descriptor
+        getDescriptor() {
+      return com.example.tutorial.MyDataInfo.internal_static_tutorial_MyMessage_descriptor;
+    }
+
+    @java.lang.Override
+    protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+        internalGetFieldAccessorTable() {
+      return com.example.tutorial.MyDataInfo.internal_static_tutorial_MyMessage_fieldAccessorTable
+          .ensureFieldAccessorsInitialized(
+              com.example.tutorial.MyDataInfo.MyMessage.class, com.example.tutorial.MyDataInfo.MyMessage.Builder.class);
+    }
+
+    /**
+     * Protobuf enum {@code tutorial.MyMessage.DataType}
+     */
+    public enum DataType
+        implements com.google.protobuf.ProtocolMessageEnum {
+      /**
+       * <code>PersonType = 1;</code>
+       */
+      PersonType(1),
+      /**
+       * <code>AnimalType = 2;</code>
+       */
+      AnimalType(2),
+      ;
+
+      /**
+       * <code>PersonType = 1;</code>
+       */
+      public static final int PersonType_VALUE = 1;
+      /**
+       * <code>AnimalType = 2;</code>
+       */
+      public static final int AnimalType_VALUE = 2;
+
+
+      public final int getNumber() {
+        return value;
+      }
+
+      /**
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
+      public static DataType valueOf(int value) {
+        return forNumber(value);
+      }
+
+      public static DataType forNumber(int value) {
+        switch (value) {
+          case 1: return PersonType;
+          case 2: return AnimalType;
+          default: return null;
+        }
+      }
+
+      public static com.google.protobuf.Internal.EnumLiteMap<DataType>
+          internalGetValueMap() {
+        return internalValueMap;
+      }
+      private static final com.google.protobuf.Internal.EnumLiteMap<
+          DataType> internalValueMap =
+            new com.google.protobuf.Internal.EnumLiteMap<DataType>() {
+              public DataType findValueByNumber(int number) {
+                return DataType.forNumber(number);
+              }
+            };
+
+      public final com.google.protobuf.Descriptors.EnumValueDescriptor
+          getValueDescriptor() {
+        return getDescriptor().getValues().get(ordinal());
+      }
+      public final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptorForType() {
+        return getDescriptor();
+      }
+      public static final com.google.protobuf.Descriptors.EnumDescriptor
+          getDescriptor() {
+        return com.example.tutorial.MyDataInfo.MyMessage.getDescriptor().getEnumTypes().get(0);
+      }
+
+      private static final DataType[] VALUES = values();
+
+      public static DataType valueOf(
+          com.google.protobuf.Descriptors.EnumValueDescriptor desc) {
+        if (desc.getType() != getDescriptor()) {
+          throw new java.lang.IllegalArgumentException(
+            "EnumValueDescriptor is not for this type.");
+        }
+        return VALUES[desc.getIndex()];
+      }
+
+      private final int value;
+
+      private DataType(int value) {
+        this.value = value;
+      }
+
+      // @@protoc_insertion_point(enum_scope:tutorial.MyMessage.DataType)
+    }
+
+    private int bitField0_;
+    private int dataBodyCase_ = 0;
+    private java.lang.Object dataBody_;
+    public enum DataBodyCase
+        implements com.google.protobuf.Internal.EnumLite {
+      PERSON(2),
+      ANIMAL(3),
+      DATABODY_NOT_SET(0);
+      private final int value;
+      private DataBodyCase(int value) {
+        this.value = value;
+      }
+      /**
+       * @deprecated Use {@link #forNumber(int)} instead.
+       */
+      @java.lang.Deprecated
+      public static DataBodyCase valueOf(int value) {
+        return forNumber(value);
+      }
+
+      public static DataBodyCase forNumber(int value) {
+        switch (value) {
+          case 2: return PERSON;
+          case 3: return ANIMAL;
+          case 0: return DATABODY_NOT_SET;
+          default: return null;
+        }
+      }
+      public int getNumber() {
+        return this.value;
+      }
+    };
+
+    public DataBodyCase
+    getDataBodyCase() {
+      return DataBodyCase.forNumber(
+          dataBodyCase_);
+    }
+
+    public static final int DATA_TYPE_FIELD_NUMBER = 1;
+    private int dataType_;
+    /**
+     * <code>required .tutorial.MyMessage.DataType data_type = 1;</code>
+     */
+    public boolean hasDataType() {
+      return ((bitField0_ & 0x00000001) != 0);
+    }
+    /**
+     * <code>required .tutorial.MyMessage.DataType data_type = 1;</code>
+     */
+    public com.example.tutorial.MyDataInfo.MyMessage.DataType getDataType() {
+      @SuppressWarnings("deprecation")
+      com.example.tutorial.MyDataInfo.MyMessage.DataType result = com.example.tutorial.MyDataInfo.MyMessage.DataType.valueOf(dataType_);
+      return result == null ? com.example.tutorial.MyDataInfo.MyMessage.DataType.PersonType : result;
+    }
+
+    public static final int PERSON_FIELD_NUMBER = 2;
+    /**
+     * <code>optional .tutorial.Person person = 2;</code>
+     */
+    public boolean hasPerson() {
+      return dataBodyCase_ == 2;
+    }
+    /**
+     * <code>optional .tutorial.Person person = 2;</code>
+     */
+    public com.example.tutorial.MyDataInfo.Person getPerson() {
+      if (dataBodyCase_ == 2) {
+         return (com.example.tutorial.MyDataInfo.Person) dataBody_;
+      }
+      return com.example.tutorial.MyDataInfo.Person.getDefaultInstance();
+    }
+    /**
+     * <code>optional .tutorial.Person person = 2;</code>
+     */
+    public com.example.tutorial.MyDataInfo.PersonOrBuilder getPersonOrBuilder() {
+      if (dataBodyCase_ == 2) {
+         return (com.example.tutorial.MyDataInfo.Person) dataBody_;
+      }
+      return com.example.tutorial.MyDataInfo.Person.getDefaultInstance();
+    }
+
+    public static final int ANIMAL_FIELD_NUMBER = 3;
+    /**
+     * <code>optional .tutorial.Animal Animal = 3;</code>
+     */
+    public boolean hasAnimal() {
+      return dataBodyCase_ == 3;
+    }
+    /**
+     * <code>optional .tutorial.Animal Animal = 3;</code>
+     */
+    public com.example.tutorial.MyDataInfo.Animal getAnimal() {
+      if (dataBodyCase_ == 3) {
+         return (com.example.tutorial.MyDataInfo.Animal) dataBody_;
+      }
+      return com.example.tutorial.MyDataInfo.Animal.getDefaultInstance();
+    }
+    /**
+     * <code>optional .tutorial.Animal Animal = 3;</code>
+     */
+    public com.example.tutorial.MyDataInfo.AnimalOrBuilder getAnimalOrBuilder() {
+      if (dataBodyCase_ == 3) {
+         return (com.example.tutorial.MyDataInfo.Animal) dataBody_;
+      }
+      return com.example.tutorial.MyDataInfo.Animal.getDefaultInstance();
+    }
+
+    private byte memoizedIsInitialized = -1;
+    @java.lang.Override
+    public final boolean isInitialized() {
+      byte isInitialized = memoizedIsInitialized;
+      if (isInitialized == 1) return true;
+      if (isInitialized == 0) return false;
+
+      if (!hasDataType()) {
+        memoizedIsInitialized = 0;
+        return false;
+      }
+      memoizedIsInitialized = 1;
+      return true;
+    }
+
+    @java.lang.Override
+    public void writeTo(com.google.protobuf.CodedOutputStream output)
+                        throws java.io.IOException {
+      if (((bitField0_ & 0x00000001) != 0)) {
+        output.writeEnum(1, dataType_);
+      }
+      if (dataBodyCase_ == 2) {
+        output.writeMessage(2, (com.example.tutorial.MyDataInfo.Person) dataBody_);
+      }
+      if (dataBodyCase_ == 3) {
+        output.writeMessage(3, (com.example.tutorial.MyDataInfo.Animal) dataBody_);
+      }
+      unknownFields.writeTo(output);
+    }
+
+    @java.lang.Override
+    public int getSerializedSize() {
+      int size = memoizedSize;
+      if (size != -1) return size;
+
+      size = 0;
+      if (((bitField0_ & 0x00000001) != 0)) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeEnumSize(1, dataType_);
+      }
+      if (dataBodyCase_ == 2) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(2, (com.example.tutorial.MyDataInfo.Person) dataBody_);
+      }
+      if (dataBodyCase_ == 3) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(3, (com.example.tutorial.MyDataInfo.Animal) dataBody_);
+      }
+      size += unknownFields.getSerializedSize();
+      memoizedSize = size;
+      return size;
+    }
+
+    @java.lang.Override
+    public boolean equals(final java.lang.Object obj) {
+      if (obj == this) {
+       return true;
+      }
+      if (!(obj instanceof com.example.tutorial.MyDataInfo.MyMessage)) {
+        return super.equals(obj);
+      }
+      com.example.tutorial.MyDataInfo.MyMessage other = (com.example.tutorial.MyDataInfo.MyMessage) obj;
+
+      if (hasDataType() != other.hasDataType()) return false;
+      if (hasDataType()) {
+        if (dataType_ != other.dataType_) return false;
+      }
+      if (!getDataBodyCase().equals(other.getDataBodyCase())) return false;
+      switch (dataBodyCase_) {
+        case 2:
+          if (!getPerson()
+              .equals(other.getPerson())) return false;
+          break;
+        case 3:
+          if (!getAnimal()
+              .equals(other.getAnimal())) return false;
+          break;
+        case 0:
+        default:
+      }
+      if (!unknownFields.equals(other.unknownFields)) return false;
+      return true;
+    }
+
+    @java.lang.Override
+    public int hashCode() {
+      if (memoizedHashCode != 0) {
+        return memoizedHashCode;
+      }
+      int hash = 41;
+      hash = (19 * hash) + getDescriptor().hashCode();
+      if (hasDataType()) {
+        hash = (37 * hash) + DATA_TYPE_FIELD_NUMBER;
+        hash = (53 * hash) + dataType_;
+      }
+      switch (dataBodyCase_) {
+        case 2:
+          hash = (37 * hash) + PERSON_FIELD_NUMBER;
+          hash = (53 * hash) + getPerson().hashCode();
+          break;
+        case 3:
+          hash = (37 * hash) + ANIMAL_FIELD_NUMBER;
+          hash = (53 * hash) + getAnimal().hashCode();
+          break;
+        case 0:
+        default:
+      }
+      hash = (29 * hash) + unknownFields.hashCode();
+      memoizedHashCode = hash;
+      return hash;
+    }
+
+    public static com.example.tutorial.MyDataInfo.MyMessage parseFrom(
+        java.nio.ByteBuffer data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.example.tutorial.MyDataInfo.MyMessage parseFrom(
+        java.nio.ByteBuffer data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.example.tutorial.MyDataInfo.MyMessage parseFrom(
+        com.google.protobuf.ByteString data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.example.tutorial.MyDataInfo.MyMessage parseFrom(
+        com.google.protobuf.ByteString data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.example.tutorial.MyDataInfo.MyMessage parseFrom(byte[] data)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data);
+    }
+    public static com.example.tutorial.MyDataInfo.MyMessage parseFrom(
+        byte[] data,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws com.google.protobuf.InvalidProtocolBufferException {
+      return PARSER.parseFrom(data, extensionRegistry);
+    }
+    public static com.example.tutorial.MyDataInfo.MyMessage parseFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.example.tutorial.MyDataInfo.MyMessage parseFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.example.tutorial.MyDataInfo.MyMessage parseDelimitedFrom(java.io.InputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseDelimitedWithIOException(PARSER, input);
+    }
+    public static com.example.tutorial.MyDataInfo.MyMessage parseDelimitedFrom(
+        java.io.InputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
+    }
+    public static com.example.tutorial.MyDataInfo.MyMessage parseFrom(
+        com.google.protobuf.CodedInputStream input)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input);
+    }
+    public static com.example.tutorial.MyDataInfo.MyMessage parseFrom(
+        com.google.protobuf.CodedInputStream input,
+        com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+        throws java.io.IOException {
+      return com.google.protobuf.GeneratedMessageV3
+          .parseWithIOException(PARSER, input, extensionRegistry);
+    }
+
+    @java.lang.Override
+    public Builder newBuilderForType() { return newBuilder(); }
+    public static Builder newBuilder() {
+      return DEFAULT_INSTANCE.toBuilder();
+    }
+    public static Builder newBuilder(com.example.tutorial.MyDataInfo.MyMessage prototype) {
+      return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
+    }
+    @java.lang.Override
+    public Builder toBuilder() {
+      return this == DEFAULT_INSTANCE
+          ? new Builder() : new Builder().mergeFrom(this);
+    }
+
+    @java.lang.Override
+    protected Builder newBuilderForType(
+        com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+      Builder builder = new Builder(parent);
+      return builder;
+    }
+    /**
+     * Protobuf type {@code tutorial.MyMessage}
+     */
+    public static final class Builder extends
+        com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
+        // @@protoc_insertion_point(builder_implements:tutorial.MyMessage)
+        com.example.tutorial.MyDataInfo.MyMessageOrBuilder {
+      public static final com.google.protobuf.Descriptors.Descriptor
+          getDescriptor() {
+        return com.example.tutorial.MyDataInfo.internal_static_tutorial_MyMessage_descriptor;
+      }
+
+      @java.lang.Override
+      protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+          internalGetFieldAccessorTable() {
+        return com.example.tutorial.MyDataInfo.internal_static_tutorial_MyMessage_fieldAccessorTable
+            .ensureFieldAccessorsInitialized(
+                com.example.tutorial.MyDataInfo.MyMessage.class, com.example.tutorial.MyDataInfo.MyMessage.Builder.class);
+      }
+
+      // Construct using com.example.tutorial.MyDataInfo.MyMessage.newBuilder()
+      private Builder() {
+        maybeForceBuilderInitialization();
+      }
+
+      private Builder(
+          com.google.protobuf.GeneratedMessageV3.BuilderParent parent) {
+        super(parent);
+        maybeForceBuilderInitialization();
+      }
+      private void maybeForceBuilderInitialization() {
+        if (com.google.protobuf.GeneratedMessageV3
+                .alwaysUseFieldBuilders) {
+        }
+      }
+      @java.lang.Override
+      public Builder clear() {
+        super.clear();
+        dataType_ = 1;
+        bitField0_ = (bitField0_ & ~0x00000001);
+        dataBodyCase_ = 0;
+        dataBody_ = null;
+        return this;
+      }
+
+      @java.lang.Override
+      public com.google.protobuf.Descriptors.Descriptor
+          getDescriptorForType() {
+        return com.example.tutorial.MyDataInfo.internal_static_tutorial_MyMessage_descriptor;
+      }
+
+      @java.lang.Override
+      public com.example.tutorial.MyDataInfo.MyMessage getDefaultInstanceForType() {
+        return com.example.tutorial.MyDataInfo.MyMessage.getDefaultInstance();
+      }
+
+      @java.lang.Override
+      public com.example.tutorial.MyDataInfo.MyMessage build() {
+        com.example.tutorial.MyDataInfo.MyMessage result = buildPartial();
+        if (!result.isInitialized()) {
+          throw newUninitializedMessageException(result);
+        }
+        return result;
+      }
+
+      @java.lang.Override
+      public com.example.tutorial.MyDataInfo.MyMessage buildPartial() {
+        com.example.tutorial.MyDataInfo.MyMessage result = new com.example.tutorial.MyDataInfo.MyMessage(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
+        if (((from_bitField0_ & 0x00000001) != 0)) {
+          to_bitField0_ |= 0x00000001;
+        }
+        result.dataType_ = dataType_;
+        if (dataBodyCase_ == 2) {
+          if (personBuilder_ == null) {
+            result.dataBody_ = dataBody_;
+          } else {
+            result.dataBody_ = personBuilder_.build();
+          }
+        }
+        if (dataBodyCase_ == 3) {
+          if (animalBuilder_ == null) {
+            result.dataBody_ = dataBody_;
+          } else {
+            result.dataBody_ = animalBuilder_.build();
+          }
+        }
+        result.bitField0_ = to_bitField0_;
+        result.dataBodyCase_ = dataBodyCase_;
+        onBuilt();
+        return result;
+      }
+
+      @java.lang.Override
+      public Builder clone() {
+        return super.clone();
+      }
+      @java.lang.Override
+      public Builder setField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          java.lang.Object value) {
+        return super.setField(field, value);
+      }
+      @java.lang.Override
+      public Builder clearField(
+          com.google.protobuf.Descriptors.FieldDescriptor field) {
+        return super.clearField(field);
+      }
+      @java.lang.Override
+      public Builder clearOneof(
+          com.google.protobuf.Descriptors.OneofDescriptor oneof) {
+        return super.clearOneof(oneof);
+      }
+      @java.lang.Override
+      public Builder setRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          int index, java.lang.Object value) {
+        return super.setRepeatedField(field, index, value);
+      }
+      @java.lang.Override
+      public Builder addRepeatedField(
+          com.google.protobuf.Descriptors.FieldDescriptor field,
+          java.lang.Object value) {
+        return super.addRepeatedField(field, value);
+      }
+      @java.lang.Override
+      public Builder mergeFrom(com.google.protobuf.Message other) {
+        if (other instanceof com.example.tutorial.MyDataInfo.MyMessage) {
+          return mergeFrom((com.example.tutorial.MyDataInfo.MyMessage)other);
+        } else {
+          super.mergeFrom(other);
+          return this;
+        }
+      }
+
+      public Builder mergeFrom(com.example.tutorial.MyDataInfo.MyMessage other) {
+        if (other == com.example.tutorial.MyDataInfo.MyMessage.getDefaultInstance()) return this;
+        if (other.hasDataType()) {
+          setDataType(other.getDataType());
+        }
+        switch (other.getDataBodyCase()) {
+          case PERSON: {
+            mergePerson(other.getPerson());
+            break;
+          }
+          case ANIMAL: {
+            mergeAnimal(other.getAnimal());
+            break;
+          }
+          case DATABODY_NOT_SET: {
+            break;
+          }
+        }
+        this.mergeUnknownFields(other.unknownFields);
+        onChanged();
+        return this;
+      }
+
+      @java.lang.Override
+      public final boolean isInitialized() {
+        if (!hasDataType()) {
+          return false;
+        }
+        return true;
+      }
+
+      @java.lang.Override
+      public Builder mergeFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws java.io.IOException {
+        com.example.tutorial.MyDataInfo.MyMessage parsedMessage = null;
+        try {
+          parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
+        } catch (com.google.protobuf.InvalidProtocolBufferException e) {
+          parsedMessage = (com.example.tutorial.MyDataInfo.MyMessage) e.getUnfinishedMessage();
+          throw e.unwrapIOException();
+        } finally {
+          if (parsedMessage != null) {
+            mergeFrom(parsedMessage);
+          }
+        }
+        return this;
+      }
+      private int dataBodyCase_ = 0;
+      private java.lang.Object dataBody_;
+      public DataBodyCase
+          getDataBodyCase() {
+        return DataBodyCase.forNumber(
+            dataBodyCase_);
+      }
+
+      public Builder clearDataBody() {
+        dataBodyCase_ = 0;
+        dataBody_ = null;
+        onChanged();
+        return this;
+      }
+
+      private int bitField0_;
+
+      private int dataType_ = 1;
+      /**
+       * <code>required .tutorial.MyMessage.DataType data_type = 1;</code>
+       */
+      public boolean hasDataType() {
+        return ((bitField0_ & 0x00000001) != 0);
+      }
+      /**
+       * <code>required .tutorial.MyMessage.DataType data_type = 1;</code>
+       */
+      public com.example.tutorial.MyDataInfo.MyMessage.DataType getDataType() {
+        @SuppressWarnings("deprecation")
+        com.example.tutorial.MyDataInfo.MyMessage.DataType result = com.example.tutorial.MyDataInfo.MyMessage.DataType.valueOf(dataType_);
+        return result == null ? com.example.tutorial.MyDataInfo.MyMessage.DataType.PersonType : result;
+      }
+      /**
+       * <code>required .tutorial.MyMessage.DataType data_type = 1;</code>
+       */
+      public Builder setDataType(com.example.tutorial.MyDataInfo.MyMessage.DataType value) {
+        if (value == null) {
+          throw new NullPointerException();
+        }
+        bitField0_ |= 0x00000001;
+        dataType_ = value.getNumber();
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>required .tutorial.MyMessage.DataType data_type = 1;</code>
+       */
+      public Builder clearDataType() {
+        bitField0_ = (bitField0_ & ~0x00000001);
+        dataType_ = 1;
+        onChanged();
+        return this;
+      }
+
+      private com.google.protobuf.SingleFieldBuilderV3<
+          com.example.tutorial.MyDataInfo.Person, com.example.tutorial.MyDataInfo.Person.Builder, com.example.tutorial.MyDataInfo.PersonOrBuilder> personBuilder_;
+      /**
+       * <code>optional .tutorial.Person person = 2;</code>
+       */
+      public boolean hasPerson() {
+        return dataBodyCase_ == 2;
+      }
+      /**
+       * <code>optional .tutorial.Person person = 2;</code>
+       */
+      public com.example.tutorial.MyDataInfo.Person getPerson() {
+        if (personBuilder_ == null) {
+          if (dataBodyCase_ == 2) {
+            return (com.example.tutorial.MyDataInfo.Person) dataBody_;
+          }
+          return com.example.tutorial.MyDataInfo.Person.getDefaultInstance();
+        } else {
+          if (dataBodyCase_ == 2) {
+            return personBuilder_.getMessage();
+          }
+          return com.example.tutorial.MyDataInfo.Person.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .tutorial.Person person = 2;</code>
+       */
+      public Builder setPerson(com.example.tutorial.MyDataInfo.Person value) {
+        if (personBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          dataBody_ = value;
+          onChanged();
+        } else {
+          personBuilder_.setMessage(value);
+        }
+        dataBodyCase_ = 2;
+        return this;
+      }
+      /**
+       * <code>optional .tutorial.Person person = 2;</code>
+       */
+      public Builder setPerson(
+          com.example.tutorial.MyDataInfo.Person.Builder builderForValue) {
+        if (personBuilder_ == null) {
+          dataBody_ = builderForValue.build();
+          onChanged();
+        } else {
+          personBuilder_.setMessage(builderForValue.build());
+        }
+        dataBodyCase_ = 2;
+        return this;
+      }
+      /**
+       * <code>optional .tutorial.Person person = 2;</code>
+       */
+      public Builder mergePerson(com.example.tutorial.MyDataInfo.Person value) {
+        if (personBuilder_ == null) {
+          if (dataBodyCase_ == 2 &&
+              dataBody_ != com.example.tutorial.MyDataInfo.Person.getDefaultInstance()) {
+            dataBody_ = com.example.tutorial.MyDataInfo.Person.newBuilder((com.example.tutorial.MyDataInfo.Person) dataBody_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            dataBody_ = value;
+          }
+          onChanged();
+        } else {
+          if (dataBodyCase_ == 2) {
+            personBuilder_.mergeFrom(value);
+          }
+          personBuilder_.setMessage(value);
+        }
+        dataBodyCase_ = 2;
+        return this;
+      }
+      /**
+       * <code>optional .tutorial.Person person = 2;</code>
+       */
+      public Builder clearPerson() {
+        if (personBuilder_ == null) {
+          if (dataBodyCase_ == 2) {
+            dataBodyCase_ = 0;
+            dataBody_ = null;
+            onChanged();
+          }
+        } else {
+          if (dataBodyCase_ == 2) {
+            dataBodyCase_ = 0;
+            dataBody_ = null;
+          }
+          personBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>optional .tutorial.Person person = 2;</code>
+       */
+      public com.example.tutorial.MyDataInfo.Person.Builder getPersonBuilder() {
+        return getPersonFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .tutorial.Person person = 2;</code>
+       */
+      public com.example.tutorial.MyDataInfo.PersonOrBuilder getPersonOrBuilder() {
+        if ((dataBodyCase_ == 2) && (personBuilder_ != null)) {
+          return personBuilder_.getMessageOrBuilder();
+        } else {
+          if (dataBodyCase_ == 2) {
+            return (com.example.tutorial.MyDataInfo.Person) dataBody_;
+          }
+          return com.example.tutorial.MyDataInfo.Person.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .tutorial.Person person = 2;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          com.example.tutorial.MyDataInfo.Person, com.example.tutorial.MyDataInfo.Person.Builder, com.example.tutorial.MyDataInfo.PersonOrBuilder> 
+          getPersonFieldBuilder() {
+        if (personBuilder_ == null) {
+          if (!(dataBodyCase_ == 2)) {
+            dataBody_ = com.example.tutorial.MyDataInfo.Person.getDefaultInstance();
+          }
+          personBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              com.example.tutorial.MyDataInfo.Person, com.example.tutorial.MyDataInfo.Person.Builder, com.example.tutorial.MyDataInfo.PersonOrBuilder>(
+                  (com.example.tutorial.MyDataInfo.Person) dataBody_,
+                  getParentForChildren(),
+                  isClean());
+          dataBody_ = null;
+        }
+        dataBodyCase_ = 2;
+        onChanged();;
+        return personBuilder_;
+      }
+
+      private com.google.protobuf.SingleFieldBuilderV3<
+          com.example.tutorial.MyDataInfo.Animal, com.example.tutorial.MyDataInfo.Animal.Builder, com.example.tutorial.MyDataInfo.AnimalOrBuilder> animalBuilder_;
+      /**
+       * <code>optional .tutorial.Animal Animal = 3;</code>
+       */
+      public boolean hasAnimal() {
+        return dataBodyCase_ == 3;
+      }
+      /**
+       * <code>optional .tutorial.Animal Animal = 3;</code>
+       */
+      public com.example.tutorial.MyDataInfo.Animal getAnimal() {
+        if (animalBuilder_ == null) {
+          if (dataBodyCase_ == 3) {
+            return (com.example.tutorial.MyDataInfo.Animal) dataBody_;
+          }
+          return com.example.tutorial.MyDataInfo.Animal.getDefaultInstance();
+        } else {
+          if (dataBodyCase_ == 3) {
+            return animalBuilder_.getMessage();
+          }
+          return com.example.tutorial.MyDataInfo.Animal.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .tutorial.Animal Animal = 3;</code>
+       */
+      public Builder setAnimal(com.example.tutorial.MyDataInfo.Animal value) {
+        if (animalBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          dataBody_ = value;
+          onChanged();
+        } else {
+          animalBuilder_.setMessage(value);
+        }
+        dataBodyCase_ = 3;
+        return this;
+      }
+      /**
+       * <code>optional .tutorial.Animal Animal = 3;</code>
+       */
+      public Builder setAnimal(
+          com.example.tutorial.MyDataInfo.Animal.Builder builderForValue) {
+        if (animalBuilder_ == null) {
+          dataBody_ = builderForValue.build();
+          onChanged();
+        } else {
+          animalBuilder_.setMessage(builderForValue.build());
+        }
+        dataBodyCase_ = 3;
+        return this;
+      }
+      /**
+       * <code>optional .tutorial.Animal Animal = 3;</code>
+       */
+      public Builder mergeAnimal(com.example.tutorial.MyDataInfo.Animal value) {
+        if (animalBuilder_ == null) {
+          if (dataBodyCase_ == 3 &&
+              dataBody_ != com.example.tutorial.MyDataInfo.Animal.getDefaultInstance()) {
+            dataBody_ = com.example.tutorial.MyDataInfo.Animal.newBuilder((com.example.tutorial.MyDataInfo.Animal) dataBody_)
+                .mergeFrom(value).buildPartial();
+          } else {
+            dataBody_ = value;
+          }
+          onChanged();
+        } else {
+          if (dataBodyCase_ == 3) {
+            animalBuilder_.mergeFrom(value);
+          }
+          animalBuilder_.setMessage(value);
+        }
+        dataBodyCase_ = 3;
+        return this;
+      }
+      /**
+       * <code>optional .tutorial.Animal Animal = 3;</code>
+       */
+      public Builder clearAnimal() {
+        if (animalBuilder_ == null) {
+          if (dataBodyCase_ == 3) {
+            dataBodyCase_ = 0;
+            dataBody_ = null;
+            onChanged();
+          }
+        } else {
+          if (dataBodyCase_ == 3) {
+            dataBodyCase_ = 0;
+            dataBody_ = null;
+          }
+          animalBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>optional .tutorial.Animal Animal = 3;</code>
+       */
+      public com.example.tutorial.MyDataInfo.Animal.Builder getAnimalBuilder() {
+        return getAnimalFieldBuilder().getBuilder();
+      }
+      /**
+       * <code>optional .tutorial.Animal Animal = 3;</code>
+       */
+      public com.example.tutorial.MyDataInfo.AnimalOrBuilder getAnimalOrBuilder() {
+        if ((dataBodyCase_ == 3) && (animalBuilder_ != null)) {
+          return animalBuilder_.getMessageOrBuilder();
+        } else {
+          if (dataBodyCase_ == 3) {
+            return (com.example.tutorial.MyDataInfo.Animal) dataBody_;
+          }
+          return com.example.tutorial.MyDataInfo.Animal.getDefaultInstance();
+        }
+      }
+      /**
+       * <code>optional .tutorial.Animal Animal = 3;</code>
+       */
+      private com.google.protobuf.SingleFieldBuilderV3<
+          com.example.tutorial.MyDataInfo.Animal, com.example.tutorial.MyDataInfo.Animal.Builder, com.example.tutorial.MyDataInfo.AnimalOrBuilder> 
+          getAnimalFieldBuilder() {
+        if (animalBuilder_ == null) {
+          if (!(dataBodyCase_ == 3)) {
+            dataBody_ = com.example.tutorial.MyDataInfo.Animal.getDefaultInstance();
+          }
+          animalBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
+              com.example.tutorial.MyDataInfo.Animal, com.example.tutorial.MyDataInfo.Animal.Builder, com.example.tutorial.MyDataInfo.AnimalOrBuilder>(
+                  (com.example.tutorial.MyDataInfo.Animal) dataBody_,
+                  getParentForChildren(),
+                  isClean());
+          dataBody_ = null;
+        }
+        dataBodyCase_ = 3;
+        onChanged();;
+        return animalBuilder_;
+      }
+      @java.lang.Override
+      public final Builder setUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return super.setUnknownFields(unknownFields);
+      }
+
+      @java.lang.Override
+      public final Builder mergeUnknownFields(
+          final com.google.protobuf.UnknownFieldSet unknownFields) {
+        return super.mergeUnknownFields(unknownFields);
+      }
+
+
+      // @@protoc_insertion_point(builder_scope:tutorial.MyMessage)
+    }
+
+    // @@protoc_insertion_point(class_scope:tutorial.MyMessage)
+    private static final com.example.tutorial.MyDataInfo.MyMessage DEFAULT_INSTANCE;
+    static {
+      DEFAULT_INSTANCE = new com.example.tutorial.MyDataInfo.MyMessage();
+    }
+
+    public static com.example.tutorial.MyDataInfo.MyMessage getDefaultInstance() {
+      return DEFAULT_INSTANCE;
+    }
+
+    @java.lang.Deprecated public static final com.google.protobuf.Parser<MyMessage>
+        PARSER = new com.google.protobuf.AbstractParser<MyMessage>() {
+      @java.lang.Override
+      public MyMessage parsePartialFrom(
+          com.google.protobuf.CodedInputStream input,
+          com.google.protobuf.ExtensionRegistryLite extensionRegistry)
+          throws com.google.protobuf.InvalidProtocolBufferException {
+        return new MyMessage(input, extensionRegistry);
+      }
+    };
+
+    public static com.google.protobuf.Parser<MyMessage> parser() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.google.protobuf.Parser<MyMessage> getParserForType() {
+      return PARSER;
+    }
+
+    @java.lang.Override
+    public com.example.tutorial.MyDataInfo.MyMessage getDefaultInstanceForType() {
+      return DEFAULT_INSTANCE;
+    }
+
+  }
+
   public interface PersonOrBuilder extends
       // @@protoc_insertion_point(interface_extends:tutorial.Person)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>required string name = 1;</code>
+     * <code>optional string name = 1;</code>
      */
     boolean hasName();
     /**
-     * <code>required string name = 1;</code>
+     * <code>optional string name = 1;</code>
      */
     java.lang.String getName();
     /**
-     * <code>required string name = 1;</code>
+     * <code>optional string name = 1;</code>
      */
     com.google.protobuf.ByteString
         getNameBytes();
@@ -149,13 +1265,13 @@ public final class MyDataInfo {
     public static final int NAME_FIELD_NUMBER = 1;
     private volatile java.lang.Object name_;
     /**
-     * <code>required string name = 1;</code>
+     * <code>optional string name = 1;</code>
      */
     public boolean hasName() {
       return ((bitField0_ & 0x00000001) != 0);
     }
     /**
-     * <code>required string name = 1;</code>
+     * <code>optional string name = 1;</code>
      */
     public java.lang.String getName() {
       java.lang.Object ref = name_;
@@ -172,7 +1288,7 @@ public final class MyDataInfo {
       }
     }
     /**
-     * <code>required string name = 1;</code>
+     * <code>optional string name = 1;</code>
      */
     public com.google.protobuf.ByteString
         getNameBytes() {
@@ -252,10 +1368,6 @@ public final class MyDataInfo {
       if (isInitialized == 1) return true;
       if (isInitialized == 0) return false;
 
-      if (!hasName()) {
-        memoizedIsInitialized = 0;
-        return false;
-      }
       memoizedIsInitialized = 1;
       return true;
     }
@@ -592,9 +1704,6 @@ public final class MyDataInfo {
 
       @java.lang.Override
       public final boolean isInitialized() {
-        if (!hasName()) {
-          return false;
-        }
         return true;
       }
 
@@ -620,13 +1729,13 @@ public final class MyDataInfo {
 
       private java.lang.Object name_ = "";
       /**
-       * <code>required string name = 1;</code>
+       * <code>optional string name = 1;</code>
        */
       public boolean hasName() {
         return ((bitField0_ & 0x00000001) != 0);
       }
       /**
-       * <code>required string name = 1;</code>
+       * <code>optional string name = 1;</code>
        */
       public java.lang.String getName() {
         java.lang.Object ref = name_;
@@ -643,7 +1752,7 @@ public final class MyDataInfo {
         }
       }
       /**
-       * <code>required string name = 1;</code>
+       * <code>optional string name = 1;</code>
        */
       public com.google.protobuf.ByteString
           getNameBytes() {
@@ -659,7 +1768,7 @@ public final class MyDataInfo {
         }
       }
       /**
-       * <code>required string name = 1;</code>
+       * <code>optional string name = 1;</code>
        */
       public Builder setName(
           java.lang.String value) {
@@ -672,7 +1781,7 @@ public final class MyDataInfo {
         return this;
       }
       /**
-       * <code>required string name = 1;</code>
+       * <code>optional string name = 1;</code>
        */
       public Builder clearName() {
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -681,7 +1790,7 @@ public final class MyDataInfo {
         return this;
       }
       /**
-       * <code>required string name = 1;</code>
+       * <code>optional string name = 1;</code>
        */
       public Builder setNameBytes(
           com.google.protobuf.ByteString value) {
@@ -854,62 +1963,53 @@ public final class MyDataInfo {
 
   }
 
-  public interface Person2OrBuilder extends
-      // @@protoc_insertion_point(interface_extends:tutorial.Person2)
+  public interface AnimalOrBuilder extends
+      // @@protoc_insertion_point(interface_extends:tutorial.Animal)
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <code>required string name2 = 1;</code>
+     * <code>optional string name = 1;</code>
      */
-    boolean hasName2();
+    boolean hasName();
     /**
-     * <code>required string name2 = 1;</code>
+     * <code>optional string name = 1;</code>
      */
-    java.lang.String getName2();
+    java.lang.String getName();
     /**
-     * <code>required string name2 = 1;</code>
+     * <code>optional string name = 1;</code>
      */
     com.google.protobuf.ByteString
-        getName2Bytes();
+        getNameBytes();
 
     /**
-     * <code>optional int32 age2 = 2;</code>
+     * <code>optional string gender = 2;</code>
      */
-    boolean hasAge2();
+    boolean hasGender();
     /**
-     * <code>optional int32 age2 = 2;</code>
+     * <code>optional string gender = 2;</code>
      */
-    int getAge2();
-
+    java.lang.String getGender();
     /**
-     * <code>optional string address2 = 3;</code>
-     */
-    boolean hasAddress2();
-    /**
-     * <code>optional string address2 = 3;</code>
-     */
-    java.lang.String getAddress2();
-    /**
-     * <code>optional string address2 = 3;</code>
+     * <code>optional string gender = 2;</code>
      */
     com.google.protobuf.ByteString
-        getAddress2Bytes();
+        getGenderBytes();
   }
   /**
-   * Protobuf type {@code tutorial.Person2}
+   * Protobuf type {@code tutorial.Animal}
    */
-  public  static final class Person2 extends
+  public  static final class Animal extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:tutorial.Person2)
-      Person2OrBuilder {
+      // @@protoc_insertion_point(message_implements:tutorial.Animal)
+      AnimalOrBuilder {
   private static final long serialVersionUID = 0L;
-    // Use Person2.newBuilder() to construct.
-    private Person2(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
+    // Use Animal.newBuilder() to construct.
+    private Animal(com.google.protobuf.GeneratedMessageV3.Builder<?> builder) {
       super(builder);
     }
-    private Person2() {
-      name2_ = "";
-      address2_ = "";
+    private Animal() {
+      name_ = "";
+      gender_ = "";
     }
 
     @java.lang.Override
@@ -917,7 +2017,7 @@ public final class MyDataInfo {
     getUnknownFields() {
       return this.unknownFields;
     }
-    private Person2(
+    private Animal(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
@@ -939,18 +2039,13 @@ public final class MyDataInfo {
             case 10: {
               com.google.protobuf.ByteString bs = input.readBytes();
               bitField0_ |= 0x00000001;
-              name2_ = bs;
+              name_ = bs;
               break;
             }
-            case 16: {
-              bitField0_ |= 0x00000002;
-              age2_ = input.readInt32();
-              break;
-            }
-            case 26: {
+            case 18: {
               com.google.protobuf.ByteString bs = input.readBytes();
-              bitField0_ |= 0x00000004;
-              address2_ = bs;
+              bitField0_ |= 0x00000002;
+              gender_ = bs;
               break;
             }
             default: {
@@ -974,31 +2069,31 @@ public final class MyDataInfo {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.example.tutorial.MyDataInfo.internal_static_tutorial_Person2_descriptor;
+      return com.example.tutorial.MyDataInfo.internal_static_tutorial_Animal_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.example.tutorial.MyDataInfo.internal_static_tutorial_Person2_fieldAccessorTable
+      return com.example.tutorial.MyDataInfo.internal_static_tutorial_Animal_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.example.tutorial.MyDataInfo.Person2.class, com.example.tutorial.MyDataInfo.Person2.Builder.class);
+              com.example.tutorial.MyDataInfo.Animal.class, com.example.tutorial.MyDataInfo.Animal.Builder.class);
     }
 
     private int bitField0_;
-    public static final int NAME2_FIELD_NUMBER = 1;
-    private volatile java.lang.Object name2_;
+    public static final int NAME_FIELD_NUMBER = 1;
+    private volatile java.lang.Object name_;
     /**
-     * <code>required string name2 = 1;</code>
+     * <code>optional string name = 1;</code>
      */
-    public boolean hasName2() {
+    public boolean hasName() {
       return ((bitField0_ & 0x00000001) != 0);
     }
     /**
-     * <code>required string name2 = 1;</code>
+     * <code>optional string name = 1;</code>
      */
-    public java.lang.String getName2() {
-      java.lang.Object ref = name2_;
+    public java.lang.String getName() {
+      java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
@@ -1006,56 +2101,41 @@ public final class MyDataInfo {
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         if (bs.isValidUtf8()) {
-          name2_ = s;
+          name_ = s;
         }
         return s;
       }
     }
     /**
-     * <code>required string name2 = 1;</code>
+     * <code>optional string name = 1;</code>
      */
     public com.google.protobuf.ByteString
-        getName2Bytes() {
-      java.lang.Object ref = name2_;
+        getNameBytes() {
+      java.lang.Object ref = name_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        name2_ = b;
+        name_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
       }
     }
 
-    public static final int AGE2_FIELD_NUMBER = 2;
-    private int age2_;
+    public static final int GENDER_FIELD_NUMBER = 2;
+    private volatile java.lang.Object gender_;
     /**
-     * <code>optional int32 age2 = 2;</code>
+     * <code>optional string gender = 2;</code>
      */
-    public boolean hasAge2() {
+    public boolean hasGender() {
       return ((bitField0_ & 0x00000002) != 0);
     }
     /**
-     * <code>optional int32 age2 = 2;</code>
+     * <code>optional string gender = 2;</code>
      */
-    public int getAge2() {
-      return age2_;
-    }
-
-    public static final int ADDRESS2_FIELD_NUMBER = 3;
-    private volatile java.lang.Object address2_;
-    /**
-     * <code>optional string address2 = 3;</code>
-     */
-    public boolean hasAddress2() {
-      return ((bitField0_ & 0x00000004) != 0);
-    }
-    /**
-     * <code>optional string address2 = 3;</code>
-     */
-    public java.lang.String getAddress2() {
-      java.lang.Object ref = address2_;
+    public java.lang.String getGender() {
+      java.lang.Object ref = gender_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
@@ -1063,22 +2143,22 @@ public final class MyDataInfo {
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         if (bs.isValidUtf8()) {
-          address2_ = s;
+          gender_ = s;
         }
         return s;
       }
     }
     /**
-     * <code>optional string address2 = 3;</code>
+     * <code>optional string gender = 2;</code>
      */
     public com.google.protobuf.ByteString
-        getAddress2Bytes() {
-      java.lang.Object ref = address2_;
+        getGenderBytes() {
+      java.lang.Object ref = gender_;
       if (ref instanceof java.lang.String) {
         com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
-        address2_ = b;
+        gender_ = b;
         return b;
       } else {
         return (com.google.protobuf.ByteString) ref;
@@ -1092,10 +2172,6 @@ public final class MyDataInfo {
       if (isInitialized == 1) return true;
       if (isInitialized == 0) return false;
 
-      if (!hasName2()) {
-        memoizedIsInitialized = 0;
-        return false;
-      }
       memoizedIsInitialized = 1;
       return true;
     }
@@ -1104,13 +2180,10 @@ public final class MyDataInfo {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (((bitField0_ & 0x00000001) != 0)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, name2_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 1, name_);
       }
       if (((bitField0_ & 0x00000002) != 0)) {
-        output.writeInt32(2, age2_);
-      }
-      if (((bitField0_ & 0x00000004) != 0)) {
-        com.google.protobuf.GeneratedMessageV3.writeString(output, 3, address2_);
+        com.google.protobuf.GeneratedMessageV3.writeString(output, 2, gender_);
       }
       unknownFields.writeTo(output);
     }
@@ -1122,14 +2195,10 @@ public final class MyDataInfo {
 
       size = 0;
       if (((bitField0_ & 0x00000001) != 0)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, name2_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, name_);
       }
       if (((bitField0_ & 0x00000002) != 0)) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(2, age2_);
-      }
-      if (((bitField0_ & 0x00000004) != 0)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(3, address2_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(2, gender_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -1141,25 +2210,20 @@ public final class MyDataInfo {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.example.tutorial.MyDataInfo.Person2)) {
+      if (!(obj instanceof com.example.tutorial.MyDataInfo.Animal)) {
         return super.equals(obj);
       }
-      com.example.tutorial.MyDataInfo.Person2 other = (com.example.tutorial.MyDataInfo.Person2) obj;
+      com.example.tutorial.MyDataInfo.Animal other = (com.example.tutorial.MyDataInfo.Animal) obj;
 
-      if (hasName2() != other.hasName2()) return false;
-      if (hasName2()) {
-        if (!getName2()
-            .equals(other.getName2())) return false;
+      if (hasName() != other.hasName()) return false;
+      if (hasName()) {
+        if (!getName()
+            .equals(other.getName())) return false;
       }
-      if (hasAge2() != other.hasAge2()) return false;
-      if (hasAge2()) {
-        if (getAge2()
-            != other.getAge2()) return false;
-      }
-      if (hasAddress2() != other.hasAddress2()) return false;
-      if (hasAddress2()) {
-        if (!getAddress2()
-            .equals(other.getAddress2())) return false;
+      if (hasGender() != other.hasGender()) return false;
+      if (hasGender()) {
+        if (!getGender()
+            .equals(other.getGender())) return false;
       }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
@@ -1172,86 +2236,82 @@ public final class MyDataInfo {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
-      if (hasName2()) {
-        hash = (37 * hash) + NAME2_FIELD_NUMBER;
-        hash = (53 * hash) + getName2().hashCode();
+      if (hasName()) {
+        hash = (37 * hash) + NAME_FIELD_NUMBER;
+        hash = (53 * hash) + getName().hashCode();
       }
-      if (hasAge2()) {
-        hash = (37 * hash) + AGE2_FIELD_NUMBER;
-        hash = (53 * hash) + getAge2();
-      }
-      if (hasAddress2()) {
-        hash = (37 * hash) + ADDRESS2_FIELD_NUMBER;
-        hash = (53 * hash) + getAddress2().hashCode();
+      if (hasGender()) {
+        hash = (37 * hash) + GENDER_FIELD_NUMBER;
+        hash = (53 * hash) + getGender().hashCode();
       }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
     }
 
-    public static com.example.tutorial.MyDataInfo.Person2 parseFrom(
+    public static com.example.tutorial.MyDataInfo.Animal parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.example.tutorial.MyDataInfo.Person2 parseFrom(
+    public static com.example.tutorial.MyDataInfo.Animal parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.example.tutorial.MyDataInfo.Person2 parseFrom(
+    public static com.example.tutorial.MyDataInfo.Animal parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.example.tutorial.MyDataInfo.Person2 parseFrom(
+    public static com.example.tutorial.MyDataInfo.Animal parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.example.tutorial.MyDataInfo.Person2 parseFrom(byte[] data)
+    public static com.example.tutorial.MyDataInfo.Animal parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.example.tutorial.MyDataInfo.Person2 parseFrom(
+    public static com.example.tutorial.MyDataInfo.Animal parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.example.tutorial.MyDataInfo.Person2 parseFrom(java.io.InputStream input)
+    public static com.example.tutorial.MyDataInfo.Animal parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.example.tutorial.MyDataInfo.Person2 parseFrom(
+    public static com.example.tutorial.MyDataInfo.Animal parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.example.tutorial.MyDataInfo.Person2 parseDelimitedFrom(java.io.InputStream input)
+    public static com.example.tutorial.MyDataInfo.Animal parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.example.tutorial.MyDataInfo.Person2 parseDelimitedFrom(
+    public static com.example.tutorial.MyDataInfo.Animal parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.example.tutorial.MyDataInfo.Person2 parseFrom(
+    public static com.example.tutorial.MyDataInfo.Animal parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.example.tutorial.MyDataInfo.Person2 parseFrom(
+    public static com.example.tutorial.MyDataInfo.Animal parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -1264,7 +2324,7 @@ public final class MyDataInfo {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.example.tutorial.MyDataInfo.Person2 prototype) {
+    public static Builder newBuilder(com.example.tutorial.MyDataInfo.Animal prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     @java.lang.Override
@@ -1280,26 +2340,26 @@ public final class MyDataInfo {
       return builder;
     }
     /**
-     * Protobuf type {@code tutorial.Person2}
+     * Protobuf type {@code tutorial.Animal}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:tutorial.Person2)
-        com.example.tutorial.MyDataInfo.Person2OrBuilder {
+        // @@protoc_insertion_point(builder_implements:tutorial.Animal)
+        com.example.tutorial.MyDataInfo.AnimalOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.example.tutorial.MyDataInfo.internal_static_tutorial_Person2_descriptor;
+        return com.example.tutorial.MyDataInfo.internal_static_tutorial_Animal_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.example.tutorial.MyDataInfo.internal_static_tutorial_Person2_fieldAccessorTable
+        return com.example.tutorial.MyDataInfo.internal_static_tutorial_Animal_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.example.tutorial.MyDataInfo.Person2.class, com.example.tutorial.MyDataInfo.Person2.Builder.class);
+                com.example.tutorial.MyDataInfo.Animal.class, com.example.tutorial.MyDataInfo.Animal.Builder.class);
       }
 
-      // Construct using com.example.tutorial.MyDataInfo.Person2.newBuilder()
+      // Construct using com.example.tutorial.MyDataInfo.Animal.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -1317,29 +2377,27 @@ public final class MyDataInfo {
       @java.lang.Override
       public Builder clear() {
         super.clear();
-        name2_ = "";
+        name_ = "";
         bitField0_ = (bitField0_ & ~0x00000001);
-        age2_ = 0;
+        gender_ = "";
         bitField0_ = (bitField0_ & ~0x00000002);
-        address2_ = "";
-        bitField0_ = (bitField0_ & ~0x00000004);
         return this;
       }
 
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.example.tutorial.MyDataInfo.internal_static_tutorial_Person2_descriptor;
+        return com.example.tutorial.MyDataInfo.internal_static_tutorial_Animal_descriptor;
       }
 
       @java.lang.Override
-      public com.example.tutorial.MyDataInfo.Person2 getDefaultInstanceForType() {
-        return com.example.tutorial.MyDataInfo.Person2.getDefaultInstance();
+      public com.example.tutorial.MyDataInfo.Animal getDefaultInstanceForType() {
+        return com.example.tutorial.MyDataInfo.Animal.getDefaultInstance();
       }
 
       @java.lang.Override
-      public com.example.tutorial.MyDataInfo.Person2 build() {
-        com.example.tutorial.MyDataInfo.Person2 result = buildPartial();
+      public com.example.tutorial.MyDataInfo.Animal build() {
+        com.example.tutorial.MyDataInfo.Animal result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
@@ -1347,22 +2405,18 @@ public final class MyDataInfo {
       }
 
       @java.lang.Override
-      public com.example.tutorial.MyDataInfo.Person2 buildPartial() {
-        com.example.tutorial.MyDataInfo.Person2 result = new com.example.tutorial.MyDataInfo.Person2(this);
+      public com.example.tutorial.MyDataInfo.Animal buildPartial() {
+        com.example.tutorial.MyDataInfo.Animal result = new com.example.tutorial.MyDataInfo.Animal(this);
         int from_bitField0_ = bitField0_;
         int to_bitField0_ = 0;
         if (((from_bitField0_ & 0x00000001) != 0)) {
           to_bitField0_ |= 0x00000001;
         }
-        result.name2_ = name2_;
+        result.name_ = name_;
         if (((from_bitField0_ & 0x00000002) != 0)) {
-          result.age2_ = age2_;
           to_bitField0_ |= 0x00000002;
         }
-        if (((from_bitField0_ & 0x00000004) != 0)) {
-          to_bitField0_ |= 0x00000004;
-        }
-        result.address2_ = address2_;
+        result.gender_ = gender_;
         result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
@@ -1402,27 +2456,24 @@ public final class MyDataInfo {
       }
       @java.lang.Override
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.example.tutorial.MyDataInfo.Person2) {
-          return mergeFrom((com.example.tutorial.MyDataInfo.Person2)other);
+        if (other instanceof com.example.tutorial.MyDataInfo.Animal) {
+          return mergeFrom((com.example.tutorial.MyDataInfo.Animal)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.example.tutorial.MyDataInfo.Person2 other) {
-        if (other == com.example.tutorial.MyDataInfo.Person2.getDefaultInstance()) return this;
-        if (other.hasName2()) {
+      public Builder mergeFrom(com.example.tutorial.MyDataInfo.Animal other) {
+        if (other == com.example.tutorial.MyDataInfo.Animal.getDefaultInstance()) return this;
+        if (other.hasName()) {
           bitField0_ |= 0x00000001;
-          name2_ = other.name2_;
+          name_ = other.name_;
           onChanged();
         }
-        if (other.hasAge2()) {
-          setAge2(other.getAge2());
-        }
-        if (other.hasAddress2()) {
-          bitField0_ |= 0x00000004;
-          address2_ = other.address2_;
+        if (other.hasGender()) {
+          bitField0_ |= 0x00000002;
+          gender_ = other.gender_;
           onChanged();
         }
         this.mergeUnknownFields(other.unknownFields);
@@ -1432,9 +2483,6 @@ public final class MyDataInfo {
 
       @java.lang.Override
       public final boolean isInitialized() {
-        if (!hasName2()) {
-          return false;
-        }
         return true;
       }
 
@@ -1443,11 +2491,11 @@ public final class MyDataInfo {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        com.example.tutorial.MyDataInfo.Person2 parsedMessage = null;
+        com.example.tutorial.MyDataInfo.Animal parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (com.example.tutorial.MyDataInfo.Person2) e.getUnfinishedMessage();
+          parsedMessage = (com.example.tutorial.MyDataInfo.Animal) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -1458,24 +2506,24 @@ public final class MyDataInfo {
       }
       private int bitField0_;
 
-      private java.lang.Object name2_ = "";
+      private java.lang.Object name_ = "";
       /**
-       * <code>required string name2 = 1;</code>
+       * <code>optional string name = 1;</code>
        */
-      public boolean hasName2() {
+      public boolean hasName() {
         return ((bitField0_ & 0x00000001) != 0);
       }
       /**
-       * <code>required string name2 = 1;</code>
+       * <code>optional string name = 1;</code>
        */
-      public java.lang.String getName2() {
-        java.lang.Object ref = name2_;
+      public java.lang.String getName() {
+        java.lang.Object ref = name_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           if (bs.isValidUtf8()) {
-            name2_ = s;
+            name_ = s;
           }
           return s;
         } else {
@@ -1483,107 +2531,75 @@ public final class MyDataInfo {
         }
       }
       /**
-       * <code>required string name2 = 1;</code>
+       * <code>optional string name = 1;</code>
        */
       public com.google.protobuf.ByteString
-          getName2Bytes() {
-        java.lang.Object ref = name2_;
+          getNameBytes() {
+        java.lang.Object ref = name_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          name2_ = b;
+          name_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>required string name2 = 1;</code>
+       * <code>optional string name = 1;</code>
        */
-      public Builder setName2(
+      public Builder setName(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
   bitField0_ |= 0x00000001;
-        name2_ = value;
+        name_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>required string name2 = 1;</code>
+       * <code>optional string name = 1;</code>
        */
-      public Builder clearName2() {
+      public Builder clearName() {
         bitField0_ = (bitField0_ & ~0x00000001);
-        name2_ = getDefaultInstance().getName2();
+        name_ = getDefaultInstance().getName();
         onChanged();
         return this;
       }
       /**
-       * <code>required string name2 = 1;</code>
+       * <code>optional string name = 1;</code>
        */
-      public Builder setName2Bytes(
+      public Builder setNameBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   bitField0_ |= 0x00000001;
-        name2_ = value;
+        name_ = value;
         onChanged();
         return this;
       }
 
-      private int age2_ ;
+      private java.lang.Object gender_ = "";
       /**
-       * <code>optional int32 age2 = 2;</code>
+       * <code>optional string gender = 2;</code>
        */
-      public boolean hasAge2() {
+      public boolean hasGender() {
         return ((bitField0_ & 0x00000002) != 0);
       }
       /**
-       * <code>optional int32 age2 = 2;</code>
+       * <code>optional string gender = 2;</code>
        */
-      public int getAge2() {
-        return age2_;
-      }
-      /**
-       * <code>optional int32 age2 = 2;</code>
-       */
-      public Builder setAge2(int value) {
-        bitField0_ |= 0x00000002;
-        age2_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>optional int32 age2 = 2;</code>
-       */
-      public Builder clearAge2() {
-        bitField0_ = (bitField0_ & ~0x00000002);
-        age2_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private java.lang.Object address2_ = "";
-      /**
-       * <code>optional string address2 = 3;</code>
-       */
-      public boolean hasAddress2() {
-        return ((bitField0_ & 0x00000004) != 0);
-      }
-      /**
-       * <code>optional string address2 = 3;</code>
-       */
-      public java.lang.String getAddress2() {
-        java.lang.Object ref = address2_;
+      public java.lang.String getGender() {
+        java.lang.Object ref = gender_;
         if (!(ref instanceof java.lang.String)) {
           com.google.protobuf.ByteString bs =
               (com.google.protobuf.ByteString) ref;
           java.lang.String s = bs.toStringUtf8();
           if (bs.isValidUtf8()) {
-            address2_ = s;
+            gender_ = s;
           }
           return s;
         } else {
@@ -1591,53 +2607,53 @@ public final class MyDataInfo {
         }
       }
       /**
-       * <code>optional string address2 = 3;</code>
+       * <code>optional string gender = 2;</code>
        */
       public com.google.protobuf.ByteString
-          getAddress2Bytes() {
-        java.lang.Object ref = address2_;
+          getGenderBytes() {
+        java.lang.Object ref = gender_;
         if (ref instanceof String) {
           com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
-          address2_ = b;
+          gender_ = b;
           return b;
         } else {
           return (com.google.protobuf.ByteString) ref;
         }
       }
       /**
-       * <code>optional string address2 = 3;</code>
+       * <code>optional string gender = 2;</code>
        */
-      public Builder setAddress2(
+      public Builder setGender(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField0_ |= 0x00000004;
-        address2_ = value;
+  bitField0_ |= 0x00000002;
+        gender_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>optional string address2 = 3;</code>
+       * <code>optional string gender = 2;</code>
        */
-      public Builder clearAddress2() {
-        bitField0_ = (bitField0_ & ~0x00000004);
-        address2_ = getDefaultInstance().getAddress2();
+      public Builder clearGender() {
+        bitField0_ = (bitField0_ & ~0x00000002);
+        gender_ = getDefaultInstance().getGender();
         onChanged();
         return this;
       }
       /**
-       * <code>optional string address2 = 3;</code>
+       * <code>optional string gender = 2;</code>
        */
-      public Builder setAddress2Bytes(
+      public Builder setGenderBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  bitField0_ |= 0x00000004;
-        address2_ = value;
+  bitField0_ |= 0x00000002;
+        gender_ = value;
         onChanged();
         return this;
       }
@@ -1654,56 +2670,61 @@ public final class MyDataInfo {
       }
 
 
-      // @@protoc_insertion_point(builder_scope:tutorial.Person2)
+      // @@protoc_insertion_point(builder_scope:tutorial.Animal)
     }
 
-    // @@protoc_insertion_point(class_scope:tutorial.Person2)
-    private static final com.example.tutorial.MyDataInfo.Person2 DEFAULT_INSTANCE;
+    // @@protoc_insertion_point(class_scope:tutorial.Animal)
+    private static final com.example.tutorial.MyDataInfo.Animal DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.example.tutorial.MyDataInfo.Person2();
+      DEFAULT_INSTANCE = new com.example.tutorial.MyDataInfo.Animal();
     }
 
-    public static com.example.tutorial.MyDataInfo.Person2 getDefaultInstance() {
+    public static com.example.tutorial.MyDataInfo.Animal getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
-    @java.lang.Deprecated public static final com.google.protobuf.Parser<Person2>
-        PARSER = new com.google.protobuf.AbstractParser<Person2>() {
+    @java.lang.Deprecated public static final com.google.protobuf.Parser<Animal>
+        PARSER = new com.google.protobuf.AbstractParser<Animal>() {
       @java.lang.Override
-      public Person2 parsePartialFrom(
+      public Animal parsePartialFrom(
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws com.google.protobuf.InvalidProtocolBufferException {
-        return new Person2(input, extensionRegistry);
+        return new Animal(input, extensionRegistry);
       }
     };
 
-    public static com.google.protobuf.Parser<Person2> parser() {
+    public static com.google.protobuf.Parser<Animal> parser() {
       return PARSER;
     }
 
     @java.lang.Override
-    public com.google.protobuf.Parser<Person2> getParserForType() {
+    public com.google.protobuf.Parser<Animal> getParserForType() {
       return PARSER;
     }
 
     @java.lang.Override
-    public com.example.tutorial.MyDataInfo.Person2 getDefaultInstanceForType() {
+    public com.example.tutorial.MyDataInfo.Animal getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
   }
 
   private static final com.google.protobuf.Descriptors.Descriptor
+    internal_static_tutorial_MyMessage_descriptor;
+  private static final 
+    com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
+      internal_static_tutorial_MyMessage_fieldAccessorTable;
+  private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_tutorial_Person_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_tutorial_Person_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_tutorial_Person2_descriptor;
+    internal_static_tutorial_Animal_descriptor;
   private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_tutorial_Person2_fieldAccessorTable;
+      internal_static_tutorial_Animal_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -1714,11 +2735,15 @@ public final class MyDataInfo {
   static {
     java.lang.String[] descriptorData = {
       "\n:src/main/java/com/marketshrimp/netty/p" +
-      "rotobuf/Person.proto\022\010tutorial\"4\n\006Person" +
-      "\022\014\n\004name\030\001 \002(\t\022\013\n\003age\030\002 \001(\005\022\017\n\007address\030\003" +
-      " \001(\t\"8\n\007Person2\022\r\n\005name2\030\001 \002(\t\022\014\n\004age2\030\002" +
-      " \001(\005\022\020\n\010address2\030\003 \001(\tB$\n\024com.example.tu" +
-      "torialB\nMyDataInfoH\001"
+      "rotobuf/Person.proto\022\010tutorial\"\274\001\n\tMyMes" +
+      "sage\022/\n\tdata_type\030\001 \002(\0162\034.tutorial.MyMes" +
+      "sage.DataType\022\"\n\006person\030\002 \001(\0132\020.tutorial" +
+      ".PersonH\000\022\"\n\006Animal\030\003 \001(\0132\020.tutorial.Ani" +
+      "malH\000\"*\n\010DataType\022\016\n\nPersonType\020\001\022\016\n\nAni" +
+      "malType\020\002B\n\n\010dataBody\"4\n\006Person\022\014\n\004name\030" +
+      "\001 \001(\t\022\013\n\003age\030\002 \001(\005\022\017\n\007address\030\003 \001(\t\"&\n\006A" +
+      "nimal\022\014\n\004name\030\001 \001(\t\022\016\n\006gender\030\002 \001(\tB$\n\024c" +
+      "om.example.tutorialB\nMyDataInfoH\001"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
@@ -1732,18 +2757,24 @@ public final class MyDataInfo {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         }, assigner);
-    internal_static_tutorial_Person_descriptor =
+    internal_static_tutorial_MyMessage_descriptor =
       getDescriptor().getMessageTypes().get(0);
+    internal_static_tutorial_MyMessage_fieldAccessorTable = new
+      com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
+        internal_static_tutorial_MyMessage_descriptor,
+        new java.lang.String[] { "DataType", "Person", "Animal", "DataBody", });
+    internal_static_tutorial_Person_descriptor =
+      getDescriptor().getMessageTypes().get(1);
     internal_static_tutorial_Person_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_tutorial_Person_descriptor,
         new java.lang.String[] { "Name", "Age", "Address", });
-    internal_static_tutorial_Person2_descriptor =
-      getDescriptor().getMessageTypes().get(1);
-    internal_static_tutorial_Person2_fieldAccessorTable = new
+    internal_static_tutorial_Animal_descriptor =
+      getDescriptor().getMessageTypes().get(2);
+    internal_static_tutorial_Animal_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_tutorial_Person2_descriptor,
-        new java.lang.String[] { "Name2", "Age2", "Address2", });
+        internal_static_tutorial_Animal_descriptor,
+        new java.lang.String[] { "Name", "Gender", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

@@ -6,8 +6,29 @@ option java_package = "com.example.tutorial";
 option optimize_for = SPEED;
 option java_outer_classname = "MyDataInfo";
 
+message MyMessage {
+    // 定义枚举用于指定data_type是哪种类型
+    enum DataType{
+        PersonType = 1;
+        AnimalType = 2;
+    }
+
+    required DataType data_type = 1;
+
+    // oneof 只有一个类型传输
+    oneof dataBody {
+        Person person = 2;
+        Animal Animal = 3;
+    }
+}
+
 message Person {
-    required string name = 1;
+    optional string name = 1;
     optional int32 age = 2;
     optional string address = 3;
+}
+
+message Animal {
+    optional string name = 1;
+    optional string gender = 2;
 }

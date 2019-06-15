@@ -1,7 +1,5 @@
 package test;
 
-import java.util.Date;
-
 /**
  * @version v1.0
  * @author: TianXiang
@@ -10,11 +8,17 @@ import java.util.Date;
  */
 public class TT {
 
-    public static void main(String[] args) {
-         System.out.println(new Date(System.currentTimeMillis()));
-       System.out.println(new Date(System.currentTimeMillis() + (60 * 60 * 2 * 1000) + 1));
-        System.out.println("100" + 10L);
-        System.out.println(100L + "100");
+    public static void main(String[] args) throws Exception {
+       /* Class<Person> clazz = Person.class;
+        Constructor<Person> constructor = clazz.getConstructor(String[].class);
+        String[] strArray = new String[]{"速度", "激情"};
+        constructor.newInstance(new Object[]{strArray});
+        */
+        String[] str = {"1", "2", "3"};
+        Object[] str2 = new Object[]{str};
+        System.out.println(str2.length); //1
+
+
     }
-    
+
 }

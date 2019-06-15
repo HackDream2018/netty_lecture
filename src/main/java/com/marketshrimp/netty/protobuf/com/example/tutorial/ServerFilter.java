@@ -22,7 +22,7 @@ public class ServerFilter extends ChannelInitializer<SocketChannel> {
         ChannelPipeline pipeline = socketChannel.pipeline();
         pipeline.addLast(new ProtobufVarint32FrameDecoder());
         // 字节消息转换成消息对象
-        pipeline.addLast(new ProtobufDecoder(com.example.tutorial.MyDataInfo.Person.getDefaultInstance()));
+        pipeline.addLast(new ProtobufDecoder(com.example.tutorial.MyDataInfo.MyMessage.getDefaultInstance()));
         pipeline.addLast(new ProtobufVarint32LengthFieldPrepender());
         pipeline.addLast(new ProtobufEncoder());
 
