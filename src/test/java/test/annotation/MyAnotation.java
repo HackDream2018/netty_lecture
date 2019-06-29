@@ -1,8 +1,6 @@
 package test.annotation;
 
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
+import java.lang.annotation.*;
 
 import static java.lang.annotation.ElementType.*;
 
@@ -12,10 +10,11 @@ import static java.lang.annotation.ElementType.*;
  * @description:
  * @date: 2019/6/25
  */
+@Documented
 @Target({FIELD, METHOD, CONSTRUCTOR})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface MyAnotation {
 
-    String test();
+    String value();
 
 }
