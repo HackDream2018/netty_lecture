@@ -41,7 +41,7 @@ public class MySpring {
                 // 找set()
                 Class<?> fieldTypeClazz = clazzFields[i].getType();
                 Method setMethod = clazz.getMethod(buffer.toString(), fieldTypeClazz);
-                // 就char没有  new Interge("") 将字符串转换成指定的数据类型
+                // 就char没有将字符串转换成指定的数据类型  比如new Interge("")
                 setMethod.invoke(obj, fieldTypeClazz.getConstructor(String.class).newInstance(values[i]));
             }
 

@@ -11,8 +11,10 @@ public class TT {
     public static void main(String[] args) throws Exception {
         // 对象的创建交给容器来处理, 顺便赋值
         MySpring spring = new MySpring();
-        Person person = (Person) spring.getBean("test.ioc.Person");
-        System.out.println(person);
+        Animal animal = (Animal) spring.getBean("test.ioc.Animal");
+         System.out.println(animal);
+        /*Person person = (Person) spring.getBean("test.ioc.Person");
+        System.out.println(person);*/
 
     }
 
