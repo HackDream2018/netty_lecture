@@ -1,4 +1,4 @@
-package test;
+package test.polymorphic;
 
 /**
  * @version v1.0
@@ -8,7 +8,7 @@ package test;
  */
 public class TT {
 
-    public static void main(String[] args)throws Exception {
+    public static void main(String[] args) {
 
     }
 
