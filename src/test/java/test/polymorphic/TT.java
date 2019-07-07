@@ -9,6 +9,9 @@ package test.polymorphic;
 public class TT {
 
     public static void main(String[] args) {
+        Person person = new Man();
+        System.out.println(person.name);
+        person.eat();
 
     }
 
