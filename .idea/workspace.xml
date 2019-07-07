@@ -347,19 +347,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProtoBufTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.protobuf.com.example.tutorial.ProtoBufTest" />
-      <module name="netty_lecture_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.marketshrimp.protobuf.com.example.tutorial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.protobuf.com.example.tutorial.Server" />
       <module name="netty_lecture_main" />
@@ -396,19 +383,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.netty_lecture [build]" />
-      <item itemvalue="JavaScript Debug.client.html" />
-      <item itemvalue="Application.ProtoBufTest" />
       <item itemvalue="Application.Server" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Gradle.netty_lecture [build]" />
+      <item itemvalue="JavaScript Debug.client.html" />
+      <item itemvalue="Application.TT" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.ProtoBufTest" />
         <item itemvalue="JavaScript Debug.client.html" />
         <item itemvalue="Gradle.netty_lecture [build]" />
+        <item itemvalue="Application.TT" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
