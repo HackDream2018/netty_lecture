@@ -6,7 +6,7 @@ package test.polymorphic;
  * @description:
  * @date: 2019/7/7
  */
-public class Person {
+public class Person extends Animal{
 
     public String name = "父类的name属性";
     
