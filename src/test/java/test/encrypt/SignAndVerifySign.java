@@ -19,7 +19,7 @@ import java.security.spec.X509EncodedKeySpec;
  * @description: 签名和验签
  * @date: 2019/6/26
  */
-@SuppressWarnings("unchecked")
+@SuppressWarnings("all")
 public class SignAndVerifySign {
     private static final String ALGOGRITHM = "RSA";
     private static final String PUBLIC_KEY_PATH = "C:\\Users\\alw\\Desktop\\pub.key";
