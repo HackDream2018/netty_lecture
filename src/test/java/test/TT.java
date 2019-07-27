@@ -10,9 +10,6 @@ public class TT {
 
 
     public static void main(String[] args)throws Exception {
-        String str = " 1 2 ";
-        String trim = str.trim();
-         System.out.println(trim);
     }
 
 }
