@@ -17,6 +17,17 @@ public class MapKey {
     }
 
     @Override
+    public int hashCode() {
+        if (key == null)
+            return 0;
+        Pattern pattern = Pattern.compile(REG);
+        if (pattern.matcher(key).matches())
+            return 1;
+        else
+            return 2;
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -27,16 +38,7 @@ public class MapKey {
 
     }
 
-    @Override
-    public int hashCode() {
-        if (key == null)
-            return 0;
-        Pattern pattern = Pattern.compile(REG);
-        if (pattern.matcher(key).matches())
-            return 1;
-        else
-            return 2;
-    }
+
 
     @Override
     public String toString() {

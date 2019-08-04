@@ -23,8 +23,10 @@ public class TT {
         map.put(new MapKey("9"), "VA");
         map.put(new MapKey("10"), "VA");
         map.put(new MapKey("11"), "VA");
-        map.put(new MapKey("12"), "VA");
-        map.put(new MapKey("13"), "VA");
+
+        for(int i = 1; i <= 9; i++) {
+            map.put(new MapKey("A"), "VA");
+        }
 
     }
 }
