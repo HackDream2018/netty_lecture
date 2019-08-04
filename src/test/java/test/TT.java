@@ -7,9 +7,7 @@ package test;
  * @date: 2019/6/27
  */
 public class TT {
-
-
-    public static void main(String[] args)throws Exception {
+    public static void main(String[] args) {
+        
     }
-
 }
