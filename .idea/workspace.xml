@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a2a29ef-4929-4914-b5e3-5ea5938ff41b" name="Default Changelist" comment="6.9">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/Person.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/ClientFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/ServerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/ServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/protobuf/Student.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/protobuf/com/example/tutorial/ProtoBufTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+    <list default="true" id="3a2a29ef-4929-4914-b5e3-5ea5938ff41b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/DaoSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/IDCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/IDaoSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/hashmap/MapKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/hashmap/TT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/TT.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/test/TT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/TT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TT.java" afterDir="false" />
+    </list>
+    <list id="cd991eba-8430-4ff3-a6b5-92ce171e0d28" name="忽略" comment="忽略">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -83,31 +90,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/ServerFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/PersonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/ServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="176">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/ClientFilter.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="176">
+              <caret line="8" column="43" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/IDaoSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/DaoSupport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/Department.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/IDCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/PersonDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -118,6 +167,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -128,6 +178,9 @@
       <find>putVal</find>
       <find>com.example.tutorial</find>
       <find>person2</find>
+      <find>Workbook</find>
+      <find>MIN_TREEIFY_CAPACITY</find>
+      <find>transfer</find>
     </findStrings>
     <replaceStrings>
       <replace>com.marketshrimp.netty.protobuf.com.example.tutorial</replace>
@@ -141,53 +194,62 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/first/HTTPService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/first/HTTPServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/first/TT.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/first/HTTPServerFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/first/HTTPServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/second/SocketServerFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/second/SocketServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/second/SocketClientFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/second/SocketClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/second/SocketServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/second/SocketClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WeChatServerFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WeChatClientFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WeChatServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WeChatServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WeChatClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WechatClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/TT.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/TT2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/TT.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fifthWebSocket/WebSocketFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fifthWebSocket/WebSocketServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fifthWebSocket/WebSocketServerFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fifthWebSocket/WebSocketServerTextHandler.java" />
-        <option value="$PROJECT_DIR$/src/webapp/client.html" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/strategy/notuse/Bank.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/strategy/notuse/Youngster.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/encrypt/SignAndVerifySign.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/strategy/OldMan.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/strategy/Youngster.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/strategy/Bank.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/strategy/notuse/TT.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/strategy/TT.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/strategy/Person.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/Demo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/copypic/MessList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/copypic/PicTransform.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/singleresponsibility/violationreponsibility/TT.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/singleresponsibility/violationreponsibility/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/singleresponsibility/violationreponsibility/SingleResponsibility.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/singleresponsibility/SingleResponsibility.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/violationinterfaceisolation/C.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/violationinterfaceisolation/A.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/violationinterfaceisolation/D.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/violationinterfaceisolation/InterfaceIsolation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/Interface1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/Interface2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/Interface3.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/violationinterfaceisolation/Interface1.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/violationinterfaceisolation/B.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/A.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/B.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/C.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/D.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/InterfaceIsolation.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/dependentinversion/violationreponsibility/DependentInversion.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/dependentinversion/DependentInversion.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/dependentinversion/DependentInversion3Transmit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/lisreplace/violationlisreplace/LisReplace.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/lisreplace/LisReplace.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/demeter/violationdemeter/Demeter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/demeter/Demeter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/openandclose/violationopenandclose/OpenAndClose.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/openandclose/OpenAndClose.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/hashmap/MapKey.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/hashmap/TT.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/hashmap/编号.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/test/hashmap/20190801_product" />
         <option value="$PROJECT_DIR$/src/test/java/test/TT.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fifthWebSocket/WebSocketServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/protobuf/com/example/tutorial/DataInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/Student.proto" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/protobuf/com/example/tutorial/ProtoBufTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/Server.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/MyDataInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/ClientFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/ServerFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/ServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/Person.proto" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/A.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/B.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/PersonService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/DaoSupport.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/IDaoSupport.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/Service.java" />
       </list>
     </option>
   </component>
@@ -206,9 +268,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-211" />
-    <option name="y" value="461" />
-    <option name="width" value="1932" />
+    <option name="x" value="659" />
+    <option name="y" value="287" />
+    <option name="width" value="1080" />
     <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -258,31 +320,52 @@
               <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
-              <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="protobuf" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="sevenidea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="sevenidea" type="462c0819:PsiDirectoryNode" />
+              <item name="uml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -297,27 +380,32 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IDEA\workspace\netty_lecture\src\test\java\test\copypic" />
+      <recent name="C:\IDEA\workspace\netty_lecture\src\test\java\test\designpattern\strategy" />
       <recent name="C:\IDEA\workspace\netty_lecture\src\main\java\com\marketshrimp\netty\protobuf" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.marketshrimp.netty.protobuf.com.example.tutorial" />
-      <recent name="com.marketshrimp.netty.fifthWebSocket" />
-      <recent name="com.marketshrimp.netty.fourth" />
+      <recent name="test.designpattern.sevenidea.composite.uml" />
+      <recent name="test.hashmap" />
+      <recent name="test.designpattern.sevenidea.openandclose" />
+      <recent name="test.designpattern.sevenidea.demeter" />
+      <recent name="test.designpattern.sevenidea.lisreplace" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\IDEA\workspace\netty_lecture\src\test\java\test\hashmap" />
       <recent name="C:\IDEA\workspace\netty_lecture\src\main\java\com\marketshrimp\protobuf" />
     </key>
   </component>
@@ -333,13 +421,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.protobuf.com.example.tutorial.Client" />
-      <module name="netty_lecture_main" />
+  <component name="RunManager" selected="Application.TT (1)">
+    <configuration name="TT (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.hashmap.TT" />
+      <module name="netty_lecture_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marketshrimp.netty.protobuf.com.example.tutorial.*" />
+          <option name="PATTERN" value="test.hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,12 +435,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.protobuf.com.example.tutorial.Server" />
-      <module name="netty_lecture_main" />
+    <configuration name="TT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.TT" />
+      <module name="netty_lecture_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marketshrimp.netty.protobuf.com.example.tutorial.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -360,42 +448,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="netty_lecture [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OpenAndClose" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;test.designpattern.sevenidea.openandclose.violationopenandclose.OpenAndClose&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value=":cleanTest" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="client.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/netty_lecture/src/webapp/client.html" useBuiltInWebServerPort="true">
+    <configuration name="OpenAndClose.testMethod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;test.designpattern.sevenidea.openandclose.OpenAndClose.testMethod&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TT.main" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;test.TT.main&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Server" />
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Gradle.netty_lecture [build]" />
-      <item itemvalue="JavaScript Debug.client.html" />
       <item itemvalue="Application.TT" />
+      <item itemvalue="Application.TT (1)" />
+      <item itemvalue="Gradle.OpenAndClose.testMethod" />
+      <item itemvalue="Gradle.OpenAndClose" />
+      <item itemvalue="Gradle.TT.main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.client.html" />
-        <item itemvalue="Gradle.netty_lecture [build]" />
+        <item itemvalue="Application.TT (1)" />
+        <item itemvalue="Gradle.TT.main" />
         <item itemvalue="Application.TT" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Gradle.OpenAndClose.testMethod" />
+        <item itemvalue="Gradle.OpenAndClose.testMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -438,6 +564,26 @@
       <workItem from="1560074030552" duration="82000" />
       <workItem from="1560074137347" duration="168000" />
       <workItem from="1560074370475" duration="6006000" />
+      <workItem from="1562506726374" duration="64000" />
+      <workItem from="1562506807666" duration="41000" />
+      <workItem from="1562506865311" duration="10113000" />
+      <workItem from="1562842875158" duration="17554000" />
+      <workItem from="1563181693433" duration="1040000" />
+      <workItem from="1563269854803" duration="352000" />
+      <workItem from="1563349424924" duration="1875000" />
+      <workItem from="1563370058464" duration="862000" />
+      <workItem from="1563429412111" duration="1102000" />
+      <workItem from="1563632105048" duration="7460000" />
+      <workItem from="1563879059933" duration="1245000" />
+      <workItem from="1564238139874" duration="11103000" />
+      <workItem from="1564283649139" duration="2683000" />
+      <workItem from="1564398091890" duration="270000" />
+      <workItem from="1564399219223" duration="814000" />
+      <workItem from="1564449087074" duration="17964000" />
+      <workItem from="1564888407598" duration="138000" />
+      <workItem from="1564888565233" duration="557000" />
+      <workItem from="1564889141630" duration="107000" />
+      <workItem from="1564889267193" duration="4300000" />
     </task>
     <task id="LOCAL-00001" summary="netty第一次">
       <created>1557018612914</created>
@@ -502,11 +648,99 @@
       <option name="project" value="LOCAL" />
       <updated>1560072066800</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="7.7">
+      <created>1562506122697</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1562506122697</updated>
+    </task>
+    <task id="LOCAL-00011" summary="7.7">
+      <created>1562548786931</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1562548786931</updated>
+    </task>
+    <task id="LOCAL-00012" summary="7.7">
+      <created>1562550799606</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1562550799606</updated>
+    </task>
+    <task id="LOCAL-00013" summary="7.12">
+      <created>1562907614465</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562907614465</updated>
+    </task>
+    <task id="LOCAL-00014" summary="7.12">
+      <created>1563032012114</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1563032012114</updated>
+    </task>
+    <task id="LOCAL-00015" summary="7.21">
+      <created>1563638625200</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1563638625200</updated>
+    </task>
+    <task id="LOCAL-00016" summary="7.28">
+      <created>1564247509940</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1564247509940</updated>
+    </task>
+    <task id="LOCAL-00017" summary="7.28">
+      <created>1564314974715</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1564314974715</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="OpenAndClose_testMethod - 2019.07.28 at 12h 20m 35s.xml">
+      <configuration name="OpenAndClose.testMethod" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="OpenAndClose_testMethod - 2019.07.28 at 12h 21m 06s.xml">
+      <configuration name="OpenAndClose.testMethod" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="OpenAndClose_testMethod - 2019.07.28 at 12h 21m 29s.xml">
+      <configuration name="OpenAndClose.testMethod" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="OpenAndClose_testMethod - 2019.07.28 at 12h 21m 45s.xml">
+      <configuration name="OpenAndClose.testMethod" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="OpenAndClose_testMethod - 2019.07.28 at 12h 22m 13s.xml">
+      <configuration name="OpenAndClose.testMethod" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="OpenAndClose_testMethod - 2019.07.28 at 12h 34m 57s.xml">
+      <configuration name="OpenAndClose.testMethod" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TT_main - 2019.07.29 at 19h 21m 47s.xml">
+      <configuration name="TT.main" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TT_main - 2019.07.29 at 19h 22m 55s.xml">
+      <configuration name="TT.main" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TT_main - 2019.07.29 at 19h 22m 59s.xml">
+      <configuration name="TT.main" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TT_main - 2019.07.29 at 19h 23m 24s.xml">
+      <configuration name="TT.main" configurationId="GradleRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120758000" />
+    <option name="totallyTimeSpent" value="200985000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -521,17 +755,18 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22814499" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14658849" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.31959912" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986637" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.5033408" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.24164811" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850778" />
@@ -540,7 +775,7 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32817337" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32739422" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -551,9 +786,10 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="UML design tool window" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22814499" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25586355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -562,8 +798,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.31959912" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3986637" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.5033408" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3986637" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850778" />
@@ -572,7 +808,7 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32817337" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32739422" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -635,7 +871,41 @@
     <MESSAGE value="12321313" />
     <MESSAGE value="1" />
     <MESSAGE value="6.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.9" />
+    <MESSAGE value="7.7" />
+    <MESSAGE value="7.12" />
+    <MESSAGE value="7.21" />
+    <MESSAGE value="7.28" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.28" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/test/TT.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/test/hashmap/TT.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/test/hashmap/TT.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/test/hashmap/TT.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -661,378 +931,384 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/third/WoMan.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/TT.java" />
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/194c47ffd2525ec0a1caf8f070321ce7629ca1d8/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/violationinterfaceisolation/B.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="272" column="25" selection-start-line="272" selection-start-column="25" selection-end-line="272" selection-end-column="25" />
-          <folding>
-            <element signature="e#15408#15409#0" expanded="true" />
-            <element signature="e#15438#15439#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/net/InetAddress.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/violationinterfaceisolation/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="1531" column="35" selection-start-line="1531" selection-start-column="20" selection-end-line="1531" selection-end-column="35" />
-          <folding>
-            <element signature="e#55701#55702#0" expanded="true" />
-            <element signature="e#55746#55747#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/net/InetSocketAddress.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/violationinterfaceisolation/D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="165" column="30" selection-start-line="165" selection-start-column="30" selection-end-line="165" selection-end-column="30" />
-          <folding>
-            <element signature="e#4750#4751#0" expanded="true" />
-            <element signature="e#4807#4808#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="475">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/first/HTTPServerFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="24" column="41" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/second/SocketClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/second/SocketClientFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WeChatServerFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fourth/IdleEventFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="21" column="73" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/194c47ffd2525ec0a1caf8f070321ce7629ca1d8/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="124" column="38" selection-start-line="124" selection-start-column="17" selection-end-line="124" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/194c47ffd2525ec0a1caf8f070321ce7629ca1d8/netty-all-4.1.36.Final-sources.jar!/io/netty/handler/codec/http/HttpObjectAggregator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="114" column="11" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
-          <folding>
-            <element signature="e#5260#5261#0" expanded="true" />
-            <element signature="e#5305#5306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/194c47ffd2525ec0a1caf8f070321ce7629ca1d8/netty-all-4.1.36.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerHandshaker.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/violationinterfaceisolation/Interface1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/194c47ffd2525ec0a1caf8f070321ce7629ca1d8/netty-all-4.1.36.Final-sources.jar!/io/netty/handler/codec/http/websocketx/CloseWebSocketFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/violationinterfaceisolation/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="125">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/194c47ffd2525ec0a1caf8f070321ce7629ca1d8/netty-all-4.1.36.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/violationinterfaceisolation/InterfaceIsolation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/Interface3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/Interface2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/Interface1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/194c47ffd2525ec0a1caf8f070321ce7629ca1d8/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/ChannelId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="54" column="11" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/194c47ffd2525ec0a1caf8f070321ce7629ca1d8/netty-all-4.1.36.Final-sources.jar!/io/netty/handler/codec/http/websocketx/WebSocketServerProtocolHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="106" column="11" selection-start-line="106" selection-start-column="11" selection-end-line="106" selection-end-column="11" />
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding>
-            <element signature="e#4300#4301#0" expanded="true" />
-            <element signature="e#4348#4349#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fifthWebSocket/WebSocketServerFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/C.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+        <state relative-caret-position="392">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/lib/gradle-core-api-5.4.1.jar!/org/gradle/api/artifacts/dsl/RepositoryHandler.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/interfaceisolation/InterfaceIsolation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        <state relative-caret-position="252">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="408" column="20" selection-start-line="408" selection-start-column="20" selection-end-line="408" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/26.0-android/d77b633b56308a972029983a244f6bb9e24e1924/guava-26.0-android-sources.jar!/com/google/common/collect/Lists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="80" column="16" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="16" />
-          <folding>
-            <element signature="e#3259#3260#0" expanded="true" />
-            <element signature="e#3293#3294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fifthWebSocket/WebSocketServerTextHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        <state relative-caret-position="250">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/TT.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/dependentinversion/violationreponsibility/DependentInversion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/third/WechatClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="835">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        <state relative-caret-position="223">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/dependentinversion/DependentInversion3Transmit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="523">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/webapp/client.html">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/lisreplace/violationlisreplace/LisReplace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state relative-caret-position="323">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/S.proto" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/rr.proto" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/protobuf/javaclass/com/example/tutorial/DataInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/package-info.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/dependentinversion/DependentInversion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1625">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="182">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/protobuf/Student.proto">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/demeter/violationdemeter/Demeter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="223">
+          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testMethod#0;class#Demeter#0" />
+            <element signature="class#TeacherManager#0;class#Demeter#0" />
+            <element signature="class#Teacher#0;class#Demeter#0" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="class#Student#0;class#Demeter#0" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/protobuf/com/example/tutorial/DataInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/demeter/Demeter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="871" column="9" selection-start-line="871" selection-start-column="9" selection-end-line="871" selection-end-column="9" />
+        <state relative-caret-position="124">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="method#getStudentInfo#0;class#StudentManager#0;class#Demeter#0" />
+            <element signature="class#Teacher#0;class#Demeter#0" />
+            <element signature="class#Student#0;class#Demeter#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/Student.proto">
+    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/junit/junit/4.13-beta-3/8c935ccfbc74f560aed6fb24ce52c7d177327a52/junit-4.13-beta-3-sources.jar!/org/junit/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="229">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/lisreplace/LisReplace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/openandclose/violationopenandclose/OpenAndClose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
+          <folding>
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/openandclose/OpenAndClose.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="328" column="23" lean-forward="true" selection-start-line="328" selection-start-column="23" selection-end-line="328" selection-end-column="23" />
+          <folding>
+            <element signature="e#11985#11986#0" expanded="true" />
+            <element signature="e#12016#12017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="236" column="55" selection-start-line="236" selection-start-column="55" selection-end-line="236" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="32" column="3" lean-forward="true" selection-start-line="24" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="624" column="12" selection-start-line="624" selection-start-column="12" selection-end-line="624" selection-end-column="12" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+            <element signature="e#24329#24330#0" expanded="true" />
+            <element signature="e#24394#24395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/hashmap/20190801_product" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/hashmap/编号.txt" />
+    <entry file="uml://JAVA/test.TT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>test.TT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">test.TT</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-425.0" y="-58.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/LL.uml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/TT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/protobuf/com/example/tutorial/ProtoBufTest.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/modules.uml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/B.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/A.uml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/A.form" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/A.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/hashmap/TT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="66">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fifthWebSocket/WebSocketServer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/hashmap/MapKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="49" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+        <state relative-caret-position="682">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.8.0-rc-1/d2d9fddce75d0bddab2f18d1e2c2f86aa16b1dbc/protobuf-java-3.8.0-rc-1-sources.jar!/com/google/protobuf/MessageLiteOrBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/PersonDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        <state relative-caret-position="176">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.8.0-rc-1/d2d9fddce75d0bddab2f18d1e2c2f86aa16b1dbc/protobuf-java-3.8.0-rc-1-sources.jar!/com/google/protobuf/MessageLite.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="64" column="47" lean-forward="true" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="57" />
+        <state relative-caret-position="176">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/194c47ffd2525ec0a1caf8f070321ce7629ca1d8/netty-all-4.1.36.Final-sources.jar!/io/netty/handler/codec/protobuf/ProtobufDecoder.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/IDCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="88" column="36" lean-forward="true" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
-          <folding>
-            <element signature="e#3288#3289#0" expanded="true" />
-            <element signature="e#3325#3326#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/marketshrimp/netty/protobuf/com/example/tutorial/MyDataInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/Department.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="176">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/MyDataInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/PersonService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="856" column="26" selection-start-line="856" selection-start-column="19" selection-end-line="856" selection-end-column="26" />
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/DaoSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="353" column="23" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
+        <state relative-caret-position="286">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/IDaoSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/sevenidea/composite/uml/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/ClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/Person.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/second/SocketServerFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/ServerFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/ServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/protobuf/com/example/tutorial/ClientFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="176">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1121,5 +1397,55 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
   </component>
 </project>
