@@ -1,4 +1,4 @@
-package test.designpattern.strategy.notuse;
+package test.designpattern.action.strategy;
 
 /**
  * @version v1.0
@@ -6,7 +6,7 @@ package test.designpattern.strategy.notuse;
  * @description:
  * @date: 2019/7/13
  */
-public class OldMan {
+public class OldMan extends Person{
 
     private String name;
 

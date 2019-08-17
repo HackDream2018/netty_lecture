@@ -1,4 +1,4 @@
-package test.designpattern.strategy;
+package test.designpattern.action.strategy;
 
 /**
  * @version v1.0

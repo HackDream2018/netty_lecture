@@ -1,4 +1,4 @@
-package test.designpattern.strategy.notuse;
+package test.designpattern.action.strategy.notuse;
 
 /**
  * @version v1.0
