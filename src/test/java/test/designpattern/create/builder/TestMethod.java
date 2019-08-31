@@ -11,7 +11,6 @@ public class TestMethod {
     public static void main(String[] args) {
         CommonHouse commonHouse = new CommonHouse();
         commonHouse.build();
-
     }
     
 }
