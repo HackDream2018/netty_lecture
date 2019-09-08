@@ -2,6 +2,8 @@ package test;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+
 /**
  * @version v1.0
  * @author: TianXiang
@@ -12,7 +14,10 @@ public class TT {
 
     @Test
     public void testMethod() {
-
+        Arrays.asList("1", "2").forEach(item -> {
+             System.out.println(item);
+             throw new RuntimeException("异常");
+        });
     }
 
     class Man {
