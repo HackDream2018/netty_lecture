@@ -2,7 +2,8 @@ package test;
 
 import org.junit.Test;
 
-import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @version v1.0
@@ -14,10 +15,9 @@ public class TT {
 
     @Test
     public void testMethod() {
-        Arrays.asList("1", "2").forEach(item -> {
-             System.out.println(item);
-             throw new RuntimeException("异常");
-        });
+      Map<String, String> map = new HashMap<>();
+        String s = map.get("1");
+
     }
 
     class Man {
