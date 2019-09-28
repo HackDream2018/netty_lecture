@@ -10,11 +10,8 @@ public class TT {
 
     public static void main(String[] args) {
         Bank bank = new Bank();
-        Youngster youngster = new Youngster("年轻人");
-        bank.handleTheBusiness(youngster);
-
-        OldMan oldMan = new OldMan("老人家");
-        bank.handleTheBusiness(oldMan);
+        bank.handleTheBusiness(new Youngster("年轻人"));
+        bank.handleTheBusiness(new OldMan("老人家"));
     }
 
 }
