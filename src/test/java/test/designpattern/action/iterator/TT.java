@@ -1,5 +1,7 @@
 package test.designpattern.action.iterator;
 
+import java.util.ArrayList;
+
 /**
  * @version v1.0
  * @author: TianXiang
@@ -9,6 +11,7 @@ package test.designpattern.action.iterator;
 public class TT {
     
     public static void main(String[] args) {
+        ArrayList list = new ArrayList();
     }
     
 }
