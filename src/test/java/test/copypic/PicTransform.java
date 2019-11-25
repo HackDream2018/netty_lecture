@@ -9,8 +9,8 @@ public class PicTransform {
 
     public static void main(String[] args) {
         PicTransform t = new PicTransform();
-        String inFileName = "C:\\Users\\alw\\Desktop\\二期运营平台\\老商城商品数据迁移新商城\\老商城商品数据源\\北京银行自有商品\\productPic20191023.txt";
-        String outFileName = "C:\\Users\\alw\\Desktop\\二期运营平台\\老商城商品数据迁移新商城\\老商城商品数据源\\北京银行自有商品\\productNew.txt";
+        String inFileName = "C:\\Users\\alw\\Desktop\\二期运营平台\\老商城商品数据迁移新商城\\老商城商品数据源\\汇丰银行\\27号\\pic.txt";
+        String outFileName = "C:\\Users\\alw\\Desktop\\二期运营平台\\老商城商品数据迁移新商城\\老商城商品数据源\\汇丰银行\\27号\\productNew.txt";
         t.writeFile(outFileName, t.transferProductPic(inFileName));
     }
 
