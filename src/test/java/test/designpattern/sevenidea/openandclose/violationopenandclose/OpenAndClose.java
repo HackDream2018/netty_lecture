@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * @version v1.0
  * @author: TianXiang
- * @description:
+ * @description: 未使用开闭原则
  * @date: 2019/7/28
  */
 public class OpenAndClose {
@@ -13,13 +13,13 @@ public class OpenAndClose {
     @Test
     public void testMethod() {
         Graphic graphic = new Graphic();
-        graphic.drawShap(new Circle());
-        graphic.drawShap(new Square());
+        graphic.drawShape(new Circle());
+        graphic.drawShape(new Square());
     }
 
     class Graphic {
 
-        public void drawShap(Shape shape) {
+        public void drawShape(Shape shape) {
             if(shape.shapeType == 1) {
                 drawCircle();
             }else if(shape.shapeType == 2) {

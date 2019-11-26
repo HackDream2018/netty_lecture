@@ -2,7 +2,8 @@ package test;
 
 import org.junit.Test;
 
-import java.math.BigDecimal;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @version v1.0
@@ -14,10 +15,10 @@ public class TT {
 
     @Test
     public void testMethod() {
-        BigDecimal a = BigDecimal.valueOf(10);
-        BigDecimal b = BigDecimal.valueOf(3);
-         System.out.println(a.divide(b, 2, BigDecimal.ROUND_HALF_UP));
+        Map<String, Boolean> map = new HashMap<>();
+        map.put("1", true);
+         System.out.println(map.containsKey("1"));
     }
-   
+
 
 }

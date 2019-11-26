@@ -5,7 +5,7 @@ import org.junit.Test;
 /**
  * @version v1.0
  * @author: TianXiang
- * @description:
+ * @description: 没用到李氏替换
  * @date: 2019/7/28
  */
 public class LisReplace {

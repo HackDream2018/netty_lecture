@@ -13,13 +13,13 @@ public class OpenAndClose {
     @Test
     public void testMethod() {
         Graphic graphic = new Graphic();
-        graphic.drawShap(new Circle());
-        graphic.drawShap(new Square());
+        graphic.drawShape(new Circle());
+        graphic.drawShape(new Square());
     }
 
     class Graphic {
 
-        public void drawShap(Shape shape) {
+        public void drawShape(Shape shape) {
             shape.drawGraphic();
         }
 

@@ -18,7 +18,7 @@ public class LisReplace {
         B b = new B();
         // B类的父类没有相减的操作, 编者不会有写错
         System.out.println("2+1=" + b.function(2, 1));// 输出: 3
-        System.out.println("2-1=" + b.a.function(2, 1));
+        System.out.println("2-1=" + a.function(2, 1));
     }
 
     /**
