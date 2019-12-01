@@ -2,8 +2,8 @@ package test;
 
 import org.junit.Test;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @version v1.0
@@ -15,9 +15,10 @@ public class TT {
 
     @Test
     public void testMethod() {
-        Map<String, Boolean> map = new HashMap<>();
-        map.put("1", true);
-         System.out.println(map.containsKey("1"));
+        List<Integer> values = Arrays.asList(new Integer[]{1, 2, 3});
+        values.forEach(item -> {
+             System.out.println(item);
+        });
     }
 
 

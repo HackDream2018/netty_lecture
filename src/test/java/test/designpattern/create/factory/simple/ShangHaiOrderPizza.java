@@ -30,6 +30,7 @@ public class ShangHaiOrderPizza {
                 pizza.box();
             }else {
                 System.out.println("未生产此类披萨, 关店");
+                break;
             }
         }while (true);
     }
