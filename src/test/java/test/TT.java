@@ -2,8 +2,7 @@ package test;
 
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.List;
+import java.math.BigDecimal;
 
 /**
  * @version v1.0
@@ -15,10 +14,9 @@ public class TT {
 
     @Test
     public void testMethod() {
-        List<Integer> values = Arrays.asList(new Integer[]{1, 2, 3});
-        values.forEach(item -> {
-             System.out.println(item);
-        });
+        
+         System.out.println(new BigDecimal("10000").multiply(BigDecimal.valueOf(5)).divide(BigDecimal.valueOf(5)).toString());
+        
     }
 
 

@@ -17,7 +17,7 @@ public class ReadFile {
     public static void main(String[] args)throws Exception {
         Map<String, String> sxfMap = new HashMap<>();
         Map<String, String> yjMap = new HashMap<>();
-        String path = "C:\\Users\\alw\\Desktop\\0406";
+        String path = "C:\\Users\\alw\\Desktop\\二期运营平台\\数仓\\吉林\\0406\\9";
         BigDecimal sxfTotal = BigDecimal.ZERO;
         BigDecimal yjTotal = BigDecimal.ZERO;
         File sourceDir = new File(path);
