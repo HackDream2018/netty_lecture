@@ -8,7 +8,6 @@ package test.designpattern.structure.composite;
  */
 
 public abstract class AbsComponent {
-
     private String name;
     private String desc;
 

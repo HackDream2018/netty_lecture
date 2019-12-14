@@ -19,10 +19,12 @@ public class Client {
         college.add(buildDepartment);
         university.add(college);
 
-//        university.print();
-//        college.print();
-//        computerDepartment.print();
+        university.print();
+        System.out.println("----三八线----");
+        college.print();
+        System.out.println("----三八线----");
+        computerDepartment.print();
 
     }
-    
+
 }
