@@ -13,10 +13,8 @@ public class Client {
     public static void main(String[] args) {
         // 创建学校下的学院
         ArrayList<CollegeAggregate> collegeAggregates = new ArrayList<>();
-        ComputerCollegeAggregate computerCollegeAggregate = new ComputerCollegeAggregate();
-        InfoCollegeAggregate infoCollegeAggregate = new InfoCollegeAggregate();
-        collegeAggregates.add(computerCollegeAggregate);
-        collegeAggregates.add(infoCollegeAggregate);
+        collegeAggregates.add(new InfoCollegeAggregate());
+        collegeAggregates.add(new ComputerCollegeAggregate());
 
         // 输出学院信息
         PrintCollegeInfo printCollegeInfo = new PrintCollegeInfo(collegeAggregates);

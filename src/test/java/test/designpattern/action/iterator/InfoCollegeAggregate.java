@@ -6,7 +6,7 @@ import java.util.Iterator;
 /**
  * @version v1.0
  * @author: TianXiang
- * @description:
+ * @description: 容器与具体迭代器关联
  * @date: 2019/11/10
  */
 public class InfoCollegeAggregate implements CollegeAggregate {
