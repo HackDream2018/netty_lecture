@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a2a29ef-4929-4914-b5e3-5ea5938ff41b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/ClientAndServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/SocketCSTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/bio/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/SocketServer.java" beforeDir="false" />
     </list>
     <list id="cd991eba-8430-4ff3-a6b5-92ce171e0d28" name="忽略" comment="忽略" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -80,13 +83,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/ClientAndServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/SocketCSTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+            <state relative-caret-position="-49">
+              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#client#0;class#ClientAndServer#0" />
               </folding>
             </state>
           </provider>
@@ -156,10 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/notuse/ToyDuck.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/ioc/TT.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/notuse/TT.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/FlyBehavior.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/NoFlyBehavior.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/GoodFlyBehavior.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/BadFlyBehavior.java" />
@@ -207,6 +205,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/pipe/PipeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/pipe/NioServer2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/ClientAndServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/SocketServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/SocketTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/SocketCSTest.java" />
       </list>
     </option>
   </component>
@@ -225,8 +227,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="172" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1100" />
   </component>
@@ -339,6 +341,35 @@
               <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="third" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
@@ -409,81 +440,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ClientAndServer.client">
-    <configuration name="ClientAndServer.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.SocketCSTest$Client">
+    <configuration name="SocketCSTest$Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.socket.SocketCSTest$Client" />
       <module name="netty_lecture_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marketshrimp.io.nio.*" />
+          <option name="PATTERN" value="com.marketshrimp.netty.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.marketshrimp.io.nio" />
-      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.io.nio.ClientAndServer" />
-      <option name="METHOD_NAME" value="client" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientAndServer.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SocketCSTest$Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.socket.SocketCSTest$Server" />
       <module name="netty_lecture_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marketshrimp.io.nio.*" />
+          <option name="PATTERN" value="com.marketshrimp.netty.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.marketshrimp.io.nio" />
-      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.io.nio.ClientAndServer" />
-      <option name="METHOD_NAME" value="server" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PipeTest.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SocketCSTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.socket.SocketCSTest" />
       <module name="netty_lecture_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marketshrimp.io.nio.pipe.*" />
+          <option name="PATTERN" value="com.marketshrimp.netty.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.marketshrimp.io.nio.pipe" />
-      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.io.nio.pipe.PipeTest" />
-      <option name="METHOD_NAME" value="client" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketChannelTest.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SocketCSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="netty_lecture_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marketshrimp.io.nio.channel.internationalchannel.*" />
+          <option name="PATTERN" value="com.marketshrimp.netty.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.marketshrimp.io.nio.channel.internationalchannel" />
-      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.io.nio.channel.internationalchannel.SocketChannelTest" />
-      <option name="METHOD_NAME" value="client" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.marketshrimp.netty.socket" />
+      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.socket.SocketCSTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketChannelTest.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SocketCSTest.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="netty_lecture_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marketshrimp.io.nio.channel.internationalchannel.*" />
+          <option name="PATTERN" value="com.marketshrimp.netty.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.marketshrimp.io.nio.channel.internationalchannel" />
-      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.io.nio.channel.internationalchannel.SocketChannelTest" />
+      <option name="PACKAGE_NAME" value="com.marketshrimp.netty.socket" />
+      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.socket.SocketCSTest" />
       <option name="METHOD_NAME" value="server" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -491,19 +512,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SocketChannelTest.server" />
-      <item itemvalue="JUnit.SocketChannelTest.client" />
-      <item itemvalue="JUnit.PipeTest.client" />
-      <item itemvalue="JUnit.ClientAndServer.server" />
-      <item itemvalue="JUnit.ClientAndServer.client" />
+      <item itemvalue="JUnit.SocketCSTest.server" />
+      <item itemvalue="Application.SocketCSTest" />
+      <item itemvalue="JUnit.SocketCSTest" />
+      <item itemvalue="Application.SocketCSTest$Client" />
+      <item itemvalue="Application.SocketCSTest$Server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ClientAndServer.client" />
-        <item itemvalue="JUnit.ClientAndServer.server" />
-        <item itemvalue="JUnit.PipeTest.client" />
-        <item itemvalue="JUnit.SocketChannelTest.client" />
-        <item itemvalue="JUnit.SocketChannelTest.server" />
+        <item itemvalue="Application.SocketCSTest$Client" />
+        <item itemvalue="Application.SocketCSTest$Server" />
+        <item itemvalue="JUnit.SocketCSTest" />
+        <item itemvalue="Application.SocketCSTest" />
+        <item itemvalue="JUnit.SocketCSTest.server" />
       </list>
     </recent_temporary>
   </component>
@@ -887,28 +908,17 @@
       <option name="project" value="LOCAL" />
       <updated>1579078388100</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="12.8">
+      <created>1579079633434</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1579079633434</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PipeTest_client - 2020.01.15 at 16h 35m 28s.xml">
-      <configuration name="PipeTest.client" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PipeTest_client - 2020.01.15 at 16h 37m 33s.xml">
-      <configuration name="PipeTest.client" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PipeTest_client - 2020.01.15 at 16h 37m 58s.xml">
-      <configuration name="PipeTest.client" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PipeTest_client - 2020.01.15 at 16h 44m 24s.xml">
-      <configuration name="PipeTest.client" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PipeTest_client - 2020.01.15 at 16h 45m 16s.xml">
-      <configuration name="PipeTest.client" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PipeTest_client - 2020.01.15 at 16h 47m 03s.xml">
-      <configuration name="PipeTest.client" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PipeTest_client - 2020.01.15 at 16h 52m 59s.xml">
       <configuration name="PipeTest.client" configurationId="JUnit" />
     </history-entry>
@@ -921,9 +931,27 @@
     <history-entry file="ClientAndServer_client - 2020.01.15 at 17h 07m 38s.xml">
       <configuration name="ClientAndServer.client" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ClientAndServer_server - 2020.01.15 at 17h 43m 03s.xml">
+      <configuration name="ClientAndServer.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SocketTest_server - 2020.01.15 at 17h 48m 12s.xml">
+      <configuration name="SocketTest.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SocketTest_client - 2020.01.15 at 17h 49m 21s.xml">
+      <configuration name="SocketTest.client" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SocketTest_server - 2020.01.15 at 17h 49m 28s.xml">
+      <configuration name="SocketTest.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SocketTest_server - 2020.01.15 at 17h 50m 26s.xml">
+      <configuration name="SocketTest.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SocketCSTest - 2020.01.15 at 17h 52m 00s.xml">
+      <configuration name="SocketCSTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="479804000" />
+    <option name="totallyTimeSpent" value="482802000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -972,7 +1000,7 @@
       <window_info anchor="right" id="UML design tool window" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19722815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1120,7 +1148,7 @@
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/ReadFile.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/bio/ReadFile.java</url>
           <line>58</line>
           <properties />
           <option name="timeStamp" value="59" />
@@ -1188,49 +1216,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/Dog.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/encrypt/SignAndVerifySign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-726">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="972" column="19" selection-start-line="972" selection-start-column="19" selection-end-line="972" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/structure/flyweight/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/structure/flyweight/JavaUse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/responsibilitychain/PurchaseRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding>
-            <element signature="docComment;field#type#0;class#PurchaseRequest#0" />
-            <element signature="docComment;field#pirce#0;class#PurchaseRequest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/responsibilitychain/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1448,20 +1433,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/filechannel/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/ReadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="914" column="18" selection-start-line="914" selection-start-column="18" selection-end-line="914" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/channel/internationalchannel/SocketChannelMain.java" />
     <entry file="jar://D:/Software/Develop/JDK1.8/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1532,16 +1503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/channel/internationalchannel/SocketChannelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/pipe/PipeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -1552,13 +1513,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/bio/ReadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/ClientAndServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+        <state relative-caret-position="-3">
+          <caret line="69" column="43" lean-forward="true" selection-start-line="69" selection-start-column="43" selection-end-line="69" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#client#0;class#ClientAndServer#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="420" column="11" selection-start-line="420" selection-start-column="11" selection-end-line="420" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/channel/internationalchannel/SocketChannelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="74" column="44" lean-forward="true" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/com/sun/org/apache/xpath/internal/operations/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-669">
+          <caret line="228" column="67" selection-start-line="228" selection-start-column="59" selection-end-line="228" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/SocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/thrift/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/SocketCSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

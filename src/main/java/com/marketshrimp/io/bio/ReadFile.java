@@ -1,4 +1,4 @@
-package com.marketshrimp.io;
+package com.marketshrimp.io.bio;
 
 import java.io.File;
 import java.io.FileInputStream;
