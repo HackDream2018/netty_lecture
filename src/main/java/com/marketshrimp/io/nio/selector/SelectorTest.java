@@ -17,7 +17,7 @@ import java.util.Iterator;
  * @description:
  * @date: 2020/1/15
  */
-public class SocketChannelTest {
+public class SelectorTest {
 
     @Test
     public void client()throws Exception {
