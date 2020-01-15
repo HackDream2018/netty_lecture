@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a2a29ef-4929-4914-b5e3-5ea5938ff41b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/pipe/PipeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/ClientAndServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="cd991eba-8430-4ff3-a6b5-92ce171e0d28" name="忽略" comment="忽略" />
@@ -80,12 +80,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/pipe/PipeTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/ClientAndServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="464">
+              <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#client#0;class#ClientAndServer#0" />
               </folding>
             </state>
           </provider>
@@ -155,8 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/notuse/WildDuck.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/notuse/RearingDuck.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/notuse/ToyDuck.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/ioc/TT.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/notuse/TT.java" />
@@ -206,6 +205,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/channel/internationalchannel/SocketChannelTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/selector/SelectorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/pipe/PipeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/pipe/NioServer2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/ClientAndServer.java" />
       </list>
     </option>
   </component>
@@ -298,6 +299,29 @@
               <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
               <item name="io" type="462c0819:PsiDirectoryNode" />
               <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="channel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="channel" type="462c0819:PsiDirectoryNode" />
+              <item name="internationalchannel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
               <item name="pipe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -316,27 +340,6 @@
               <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -406,34 +409,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PipeTest.client">
-    <configuration name="DatagramChannelTest.receive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ClientAndServer.client">
+    <configuration name="ClientAndServer.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="netty_lecture_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marketshrimp.io.nio.channel.internationalchannel.*" />
+          <option name="PATTERN" value="com.marketshrimp.io.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.marketshrimp.io.nio.channel.internationalchannel" />
-      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.io.nio.channel.internationalchannel.DatagramChannelTest" />
-      <option name="METHOD_NAME" value="receive" />
+      <option name="PACKAGE_NAME" value="com.marketshrimp.io.nio" />
+      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.io.nio.ClientAndServer" />
+      <option name="METHOD_NAME" value="client" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DatagramChannelTest.send" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientAndServer.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="netty_lecture_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marketshrimp.io.nio.channel.internationalchannel.*" />
+          <option name="PATTERN" value="com.marketshrimp.io.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.marketshrimp.io.nio.channel.internationalchannel" />
-      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.io.nio.channel.internationalchannel.DatagramChannelTest" />
-      <option name="METHOD_NAME" value="send" />
+      <option name="PACKAGE_NAME" value="com.marketshrimp.io.nio" />
+      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.io.nio.ClientAndServer" />
+      <option name="METHOD_NAME" value="server" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -488,19 +491,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DatagramChannelTest.receive" />
-      <item itemvalue="JUnit.DatagramChannelTest.send" />
       <item itemvalue="JUnit.SocketChannelTest.server" />
       <item itemvalue="JUnit.SocketChannelTest.client" />
       <item itemvalue="JUnit.PipeTest.client" />
+      <item itemvalue="JUnit.ClientAndServer.server" />
+      <item itemvalue="JUnit.ClientAndServer.client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClientAndServer.client" />
+        <item itemvalue="JUnit.ClientAndServer.server" />
         <item itemvalue="JUnit.PipeTest.client" />
         <item itemvalue="JUnit.SocketChannelTest.client" />
         <item itemvalue="JUnit.SocketChannelTest.server" />
-        <item itemvalue="JUnit.DatagramChannelTest.receive" />
-        <item itemvalue="JUnit.DatagramChannelTest.send" />
       </list>
     </recent_temporary>
   </component>
@@ -877,22 +880,17 @@
       <option name="project" value="LOCAL" />
       <updated>1579075638936</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="12.8">
+      <created>1579078388100</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1579078388100</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PipeTest_client - 2020.01.15 at 16h 27m 11s.xml">
-      <configuration name="PipeTest.client" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PipeTest_client - 2020.01.15 at 16h 33m 05s.xml">
-      <configuration name="PipeTest.client" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PipeTest_client - 2020.01.15 at 16h 33m 24s.xml">
-      <configuration name="PipeTest.client" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PipeTest_client - 2020.01.15 at 16h 34m 53s.xml">
-      <configuration name="PipeTest.client" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PipeTest_client - 2020.01.15 at 16h 35m 28s.xml">
       <configuration name="PipeTest.client" configurationId="JUnit" />
     </history-entry>
@@ -911,9 +909,21 @@
     <history-entry file="PipeTest_client - 2020.01.15 at 16h 47m 03s.xml">
       <configuration name="PipeTest.client" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PipeTest_client - 2020.01.15 at 16h 52m 59s.xml">
+      <configuration name="PipeTest.client" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientAndServer_client - 2020.01.15 at 17h 02m 31s.xml">
+      <configuration name="ClientAndServer.client" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientAndServer_server - 2020.01.15 at 17h 02m 31s.xml">
+      <configuration name="ClientAndServer.server" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClientAndServer_client - 2020.01.15 at 17h 07m 38s.xml">
+      <configuration name="ClientAndServer.client" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="478553000" />
+    <option name="totallyTimeSpent" value="479804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -926,9 +936,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19722815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -938,7 +947,7 @@
       <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.33741647" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.33741647" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30734965" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -973,7 +982,7 @@
       <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.33741647" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.33741647" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30734965" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1179,20 +1188,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/structure/composite/TM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/structure/composite/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/Dog.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/test/encrypt/SignAndVerifySign.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1467,13 +1462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/nio/channels/SelectionKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383">
-          <caret line="266" column="37" selection-start-line="266" selection-start-column="28" selection-end-line="266" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/channel/internationalchannel/SocketChannelMain.java" />
     <entry file="jar://D:/Software/Develop/JDK1.8/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1497,16 +1485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" selection-start-line="19" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/channel/internationalchannel/SocketChannelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1540,12 +1518,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/pipe/PipeTest.java">
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/nio/channels/SelectionKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="290">
+          <caret line="198" column="33" selection-start-line="198" selection-start-column="33" selection-end-line="198" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/pipe/NioServer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/channel/internationalchannel/SocketChannelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/pipe/PipeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/ClientAndServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="63" column="34" lean-forward="true" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#client#0;class#ClientAndServer#0" />
           </folding>
         </state>
       </provider>
