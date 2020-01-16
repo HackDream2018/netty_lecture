@@ -1,4 +1,4 @@
-package com.marketshrimp.netty.first;
+package com.marketshrimp.netty.http.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -10,6 +10,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
  * @version v1.0
  * @author: TianXiang
  * @description: HTTP服务端(请求响应)
+ *               客户端是浏览器
  * @date: 2019/5/4
  */
 public class HTTPServer {

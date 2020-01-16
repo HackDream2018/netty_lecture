@@ -1,4 +1,4 @@
-package com.marketshrimp.netty.fifthWebSocket;
+package com.marketshrimp.netty.http.websocket;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;

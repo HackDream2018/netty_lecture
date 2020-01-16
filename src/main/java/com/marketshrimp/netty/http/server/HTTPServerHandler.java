@@ -1,4 +1,4 @@
-package com.marketshrimp.netty.first;
+package com.marketshrimp.netty.http.server;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

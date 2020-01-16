@@ -1,4 +1,4 @@
-package com.marketshrimp.netty.fifthWebSocket;
+package com.marketshrimp.netty.http.websocket;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -13,7 +13,7 @@ import java.net.InetSocketAddress;
  * @version v1.0
  * @author: TianXiang
  * @description: 服务端将http请求升级为websocket
- *              客户端:client.xml页面
+ *              客户端:client.xml页面(位于webapp目录下)
  * @date: 2019/5/4
  */
 public class WebSocketServer {

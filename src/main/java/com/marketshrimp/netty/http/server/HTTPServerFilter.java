@@ -1,4 +1,4 @@
-package com.marketshrimp.netty.first;
+package com.marketshrimp.netty.http.server;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
@@ -14,9 +14,7 @@ import io.netty.handler.codec.http.HttpServerCodec;
  */
 public class HTTPServerFilter extends ChannelInitializer<SocketChannel> {
 
-    /**
-     * 回调方法
-     */
+
     @Override
     protected void initChannel(SocketChannel socketChannel) throws Exception {
         // 单线程来操作管道处理器, 是ChannelHandler的容器

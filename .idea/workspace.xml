@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a2a29ef-4929-4914-b5e3-5ea5938ff41b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/SocketCSTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/bio/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/Client.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/SocketServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/fifthWebSocket/WebSocketServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/fifthWebSocket/WebSocketServerFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/fifthWebSocket/WebSocketServerTextHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/first/HTTPServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/first/HTTPServerFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/first/HTTPServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fifthWebSocket/WebSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/websocket/WebSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fifthWebSocket/WebSocketServerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/websocket/WebSocketServerFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/fifthWebSocket/WebSocketServerTextHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/websocket/WebSocketServerTextHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/first/HTTPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/server/HTTPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/first/HTTPServerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/server/HTTPServerFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/first/HTTPServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/server/HTTPServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/client.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/client.html" afterDir="false" />
     </list>
     <list id="cd991eba-8430-4ff3-a6b5-92ce171e0d28" name="忽略" comment="忽略" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -82,14 +92,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/SocketCSTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/server/HTTPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-49">
-              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+            <state relative-caret-position="127">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/server/HTTPServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="716">
+              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#channelRead#0;class#HTTPServerHandler#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/server/HTTPServerFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/websocket/WebSocketServerFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/websocket/WebSocketServerTextHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="14" column="76" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/websocket/WebSocketServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -133,6 +188,8 @@
       <find>wrap</find>
       <find>compact</find>
       <find>循环</find>
+      <find>websocket的</find>
+      <find>client.xml</find>
     </findStrings>
     <replaceStrings>
       <replace>com.marketshrimp.netty.protobuf.com.example.tutorial</replace>
@@ -158,16 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/NoFlyBehavior.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/GoodFlyBehavior.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/BadFlyBehavior.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/SwimBehavior.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/GoodSwimBehavior.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/BadSwimBehavior.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/NoSwimBehavior.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/Duck.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/WildDuck.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/RearingDuck.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/Client.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/ToyDuck.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/designpattern/action/strategy/Java.java" />
@@ -209,6 +256,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/SocketServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/SocketTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/SocketCSTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/first/HTTPServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/first/HTTPServerFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/first/HTTPServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/httpserver/HTTPServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/httpserver/HTTPServerFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/httpserver/HTTPServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/server/HTTPServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/websocket/WebSocketServer.java" />
+        <option value="$PROJECT_DIR$/src/webapp/client.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/websocket/WebSocketServerFilter.java" />
       </list>
     </option>
   </component>
@@ -280,70 +337,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="channel" type="462c0819:PsiDirectoryNode" />
-              <item name="internationalchannel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="pipe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="selector" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -354,7 +347,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
@@ -364,13 +357,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="marketshrimp" type="462c0819:PsiDirectoryNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
-              <item name="third" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -395,7 +389,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.gradle.running" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -440,7 +434,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SocketCSTest$Client">
+  <component name="RunManager" selected="JavaScript Debug.client.html">
+    <configuration name="HTTPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.httpserver.HTTPServer" />
+      <module name="netty_lecture_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marketshrimp.netty.httpserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SocketCSTest$Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.socket.SocketCSTest$Client" />
       <module name="netty_lecture_main" />
@@ -467,12 +474,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketCSTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.socket.SocketCSTest" />
+    <configuration name="WebSocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.http.websocket.WebSocketServer" />
       <module name="netty_lecture_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marketshrimp.netty.socket.*" />
+          <option name="PATTERN" value="com.marketshrimp.netty.http.websocket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -480,51 +487,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketCSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="netty_lecture_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.marketshrimp.netty.socket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.marketshrimp.netty.socket" />
-      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.socket.SocketCSTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SocketCSTest.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="netty_lecture_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.marketshrimp.netty.socket.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.marketshrimp.netty.socket" />
-      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.socket.SocketCSTest" />
-      <option name="METHOD_NAME" value="server" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="client.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/netty_lecture/src/webapp/client.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SocketCSTest.server" />
-      <item itemvalue="Application.SocketCSTest" />
-      <item itemvalue="JUnit.SocketCSTest" />
       <item itemvalue="Application.SocketCSTest$Client" />
       <item itemvalue="Application.SocketCSTest$Server" />
+      <item itemvalue="Application.HTTPServer" />
+      <item itemvalue="JavaScript Debug.client.html" />
+      <item itemvalue="Application.WebSocketServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebSocketServer" />
+        <item itemvalue="JavaScript Debug.client.html" />
+        <item itemvalue="Application.HTTPServer" />
         <item itemvalue="Application.SocketCSTest$Client" />
         <item itemvalue="Application.SocketCSTest$Server" />
-        <item itemvalue="JUnit.SocketCSTest" />
-        <item itemvalue="Application.SocketCSTest" />
-        <item itemvalue="JUnit.SocketCSTest.server" />
       </list>
     </recent_temporary>
   </component>
@@ -915,7 +894,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579079633434</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="12.8">
+      <created>1579088583228</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1579088583228</updated>
+    </task>
+    <task id="LOCAL-00041" summary="12.8">
+      <created>1579159697605</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1579159697605</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -951,7 +944,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="482802000" />
+    <option name="totallyTimeSpent" value="491474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -964,8 +957,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19722815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1000,7 +994,7 @@
       <window_info anchor="right" id="UML design tool window" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1010,7 +1004,7 @@
       <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.33741647" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.33741647" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30734965" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1216,149 +1210,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/responsibilitychain/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="docComment;field#handler#0;class#Handler#0" />
-            <element signature="docComment;field#name#0;class#Handler#0" />
-            <element signature="docComment;method#setHandler#0;class#Handler#0" />
-            <element signature="docComment;method#processRequest#0;class#Handler#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/responsibilitychain/DepartmentHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/responsibilitychain/CollegeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/responsibilitychain/ViceSchoolHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="102" selection-start-line="17" selection-start-column="102" selection-end-line="17" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/responsibilitychain/SchoolHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/responsibilitychain/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/visitor/Success.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/visitor/AbsActionVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/visitor/WomanElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/visitor/ObjectStructure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding>
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/visitor/AbsPersonElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/visitor/ManElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="e#384#385#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/visitor/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/iterator/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/iterator/InfoCollegeIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/iterator/ComputerCollegeIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="58" lean-forward="true" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="460" column="19" selection-start-line="460" selection-start-column="19" selection-end-line="460" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/iterator/ComputerCollegeAggregate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/designpattern/action/iterator/InfoCollegeAggregate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1588,11 +1439,155 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/SocketCSTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
+        <state relative-caret-position="17">
           <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/722e6b1b3ceead8fbe3c5d0218e083f757155451/netty-all-4.1.36.Final.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/722e6b1b3ceead8fbe3c5d0218e083f757155451/netty-all-4.1.36.Final.jar!/io/netty/channel/ChannelInitializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" column="76" selection-start-line="15" selection-start-column="76" selection-end-line="15" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/722e6b1b3ceead8fbe3c5d0218e083f757155451/netty-all-4.1.36.Final.jar!/io/netty/handler/codec/http/HttpServerCodec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/server/HTTPServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;method#channelRead#0;class#HTTPServerHandler#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/722e6b1b3ceead8fbe3c5d0218e083f757155451/netty-all-4.1.36.Final.jar!/io/netty/handler/codec/LengthFieldBasedFrameDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="26" column="104" selection-start-line="26" selection-start-column="87" selection-end-line="26" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/722e6b1b3ceead8fbe3c5d0218e083f757155451/netty-all-4.1.36.Final.jar!/io/netty/handler/stream/ChunkedWriteHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/722e6b1b3ceead8fbe3c5d0218e083f757155451/netty-all-4.1.36.Final.jar!/io/netty/handler/codec/http/HttpObjectAggregator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+          <folding>
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/722e6b1b3ceead8fbe3c5d0218e083f757155451/netty-all-4.1.36.Final.jar!/io/netty/handler/codec/http/websocketx/TextWebSocketFrame.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/server/HTTPServerFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/server/HTTPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="16799" column="4" selection-start-line="16799" selection-start-column="4" selection-end-line="16799" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#1015#1074#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/websocket/WebSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/websocket/WebSocketServerFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" column="69" selection-start-line="31" selection-start-column="69" selection-end-line="31" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/722e6b1b3ceead8fbe3c5d0218e083f757155451/netty-all-4.1.36.Final.jar!/io/netty/channel/ChannelHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="29" column="1" selection-start-line="14" selection-start-column="32" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/722e6b1b3ceead8fbe3c5d0218e083f757155451/netty-all-4.1.36.Final.jar!/io/netty/channel/ChannelHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/gradle-5.4.1/repository/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.36.Final/722e6b1b3ceead8fbe3c5d0218e083f757155451/netty-all-4.1.36.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/websocket/WebSocketServerTextHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="14" column="76" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="76" />
         </state>
       </provider>
     </entry>

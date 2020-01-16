@@ -1,4 +1,4 @@
-package com.marketshrimp.netty.fifthWebSocket;
+package com.marketshrimp.netty.http.websocket;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
@@ -26,7 +26,7 @@ public class WebSocketServerFilter extends ChannelInitializer<SocketChannel> {
         pipeline.addLast("chunkedWriteHandler", new ChunkedWriteHandler());
         // http聚合处理器(netty会将http数据分成多个块后处理, http聚合处理器能将多个块聚合成一个大块载体内容长度为8192)
         pipeline.addLast("httpObjectAggregator", new HttpObjectAggregator(8192));
-        // websocket的访问格式 ws://serverAddress:port/content_path(websocketPath是上下文开头)
+        // http协议升级成websocket协议且设置访问格式(ws://serverAddress:port/content_path)
         pipeline.addLast("webSocketServerProtocolHandler", new WebSocketServerProtocolHandler("/ws"));
 
         pipeline.addLast("webSocketServerHandler", new WebSocketServerTextHandler());

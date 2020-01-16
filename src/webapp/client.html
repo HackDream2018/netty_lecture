@@ -26,15 +26,18 @@
       // websocket是否建立
       socket.onopen = function () {
           $serverMessage.value = "连接建立!";
-      }
+      };
+
        // websocket是否关闭
       socket.onclose = function () {
           $serverMessage.value = "连接关闭!";
-      }
+      };
+
       // 回调
       socket.onmessage = function (ev) {
           $serverMessage.value += "\n" + ev.data;
-      }
+      };
+
       function send(message) {
           if(socket.readyState == WebSocket.OPEN) {
               socket.send(message);
