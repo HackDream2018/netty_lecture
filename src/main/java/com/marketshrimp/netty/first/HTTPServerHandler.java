@@ -12,7 +12,7 @@ import java.net.URI;
 /**
  * @version v1.0
  * @author: TianXiang
- * @description: 自定义管道处理器(ChannelInboundHandlerAdapter请求进来的适配器, 处理接收的数据)
+ * @description: 处理请求TCP流管道中的数据
  * @date: 2019/5/4
  */
 public class HTTPServerHandler extends ChannelInboundHandlerAdapter {

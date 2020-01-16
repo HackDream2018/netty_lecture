@@ -21,7 +21,7 @@ public class HTTPServerFilter extends ChannelInitializer<SocketChannel> {
     protected void initChannel(SocketChannel socketChannel) throws Exception {
         // 单线程来操作管道处理器, 是ChannelHandler的容器
         ChannelPipeline pipeline = socketChannel.pipeline();
-        // addLast(别名, 处理器)在最后面加管道处理器  编码和解码
+        // addLast(别名, 处理器)
         pipeline.addLast("httpServerCodec", new HttpServerCodec());
         // 在管道链中加入自定义管道处理器
         pipeline.addLast("httpServerHandler", new HTTPServerHandler());

@@ -18,7 +18,7 @@ public class HTTPServer {
         this.port = port;
     }
     public void run() {
-        // 主线程组, 接收客户端请求的连接, 轮询注册key
+        // 主线程组, 接收客户端请求的连接, 将连接的流管道绑定事件后注册进Selector
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         // 工作线程组, 处理接收的数据, IO操作
         EventLoopGroup workGroup = new NioEventLoopGroup();
