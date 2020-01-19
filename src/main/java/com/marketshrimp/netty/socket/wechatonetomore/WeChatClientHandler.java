@@ -1,4 +1,4 @@
-package com.marketshrimp.netty.third;
+package com.marketshrimp.netty.socket.wechatonetomore;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;

@@ -1,4 +1,4 @@
-package com.marketshrimp.netty.third;
+package com.marketshrimp.netty.socket.wechatonetomore;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
@@ -13,9 +13,9 @@ import io.netty.util.CharsetUtil;
  * @version v1.0
  * @author: TianXiang
  * @description:
- * @date: 2019/5/4
+ * @date: 2019/5/12
  */
-public class WeChatServerFilter extends ChannelInitializer<SocketChannel> {
+public class WeChatClientFilter extends ChannelInitializer<SocketChannel> {
 
     @Override
     protected void initChannel(SocketChannel socketChannel) throws Exception {
@@ -26,7 +26,7 @@ public class WeChatServerFilter extends ChannelInitializer<SocketChannel> {
         // 字符串解码和编码
         pipeline.addLast("stringDecoder", new StringDecoder(CharsetUtil.UTF_8));
         pipeline.addLast("stringEncoder", new StringEncoder(CharsetUtil.UTF_8));
-        pipeline.addLast("weChatServerHandler", new WeChatServerHandler());
+        pipeline.addLast("weChatClientHandler", new WeChatClientHandler());
     }
 
 }

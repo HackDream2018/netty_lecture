@@ -1,4 +1,4 @@
-package com.marketshrimp.netty.socket.demo2;
+package com.marketshrimp.netty.socket.betweenupgrade;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
@@ -12,13 +12,13 @@ import io.netty.util.CharsetUtil;
 /**
  * @version v1.0
  * @author: TianXiang
- * @description: 注册连接后会执行初始化管道, 管道链来管理多个管道处理器;
+ * @description:
  * @date: 2019/5/4
  */
-public class SocketServerFilter extends ChannelInitializer<SocketChannel> {
+public class SocketClientFilter extends ChannelInitializer<SocketChannel> {
 
     /**
-     * 回调方法
+     * 管道建立执行
      */
     @Override
     protected void initChannel(SocketChannel socketChannel) throws Exception {
@@ -31,7 +31,6 @@ public class SocketServerFilter extends ChannelInitializer<SocketChannel> {
         // 字符串解码和编码
         pipeline.addLast("stringDecoder", new StringDecoder(CharsetUtil.UTF_8));
         pipeline.addLast("stringEncoder", new StringEncoder(CharsetUtil.UTF_8));
-        pipeline.addLast("socketServerHandler", new SocketServerHandler());
+        pipeline.addLast("socketClientHandler", new SocketClientHandler());
     }
-
 }
