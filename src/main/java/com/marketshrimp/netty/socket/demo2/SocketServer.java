@@ -1,4 +1,4 @@
-package com.marketshrimp.netty.second;
+package com.marketshrimp.netty.socket.demo2;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

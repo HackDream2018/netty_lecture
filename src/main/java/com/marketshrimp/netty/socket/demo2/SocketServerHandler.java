@@ -1,4 +1,4 @@
-package com.marketshrimp.netty.second;
+package com.marketshrimp.netty.socket.demo2;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;

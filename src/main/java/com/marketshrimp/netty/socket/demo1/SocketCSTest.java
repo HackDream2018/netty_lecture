@@ -1,4 +1,4 @@
-package com.marketshrimp.netty.socket;
+package com.marketshrimp.netty.socket.demo1;
 
 import java.io.IOException;
 import java.io.PrintWriter;

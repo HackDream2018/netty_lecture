@@ -1,4 +1,4 @@
-package com.marketshrimp.netty.second;
+package com.marketshrimp.netty.socket.demo2;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
