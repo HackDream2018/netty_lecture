@@ -2,6 +2,7 @@ package com.marketshrimp.netty.socket.hearbeat;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
+import io.netty.channel.ChannelOption;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.logging.LogLevel;
@@ -28,6 +29,7 @@ public class IdleEventServer {
                 .group(bossGroup, workGroup)
                 .channel(NioServerSocketChannel.class)
                 .handler(new LoggingHandler(LogLevel.INFO)) // 主工作组加入日志
+                .childOption(ChannelOption.SO_KEEPALIVE, true)// TCP会主动探测空闲连接的有效性(TCP的心跳机制)
                 .childHandler(new IdleEventFilter());
         try {
             // 绑定端口, 同步管道(管道就是连接)
