@@ -1,4 +1,4 @@
-package com.marketshrimp.netty.fourth;
+package com.marketshrimp.netty.socket.hearbeat;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
@@ -33,7 +33,15 @@ public class IdleEventHandler extends ChannelInboundHandlerAdapter {
                     eventType = "readWriteEvent";
             }
              System.out.println(ctx.channel().remoteAddress() + " 超时事件: " + eventType);
-            ctx.channel().close();
+//            ctx.channel().close();
         }
+    }
+
+    /**
+     * 读Socket流管道的数据后返回到客户端
+     */
+    @Override
+    public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
+//        ctx.writeAndFlush("from server: " + UUID.randomUUID());
     }
 }

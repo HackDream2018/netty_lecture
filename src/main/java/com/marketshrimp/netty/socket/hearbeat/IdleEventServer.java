@@ -1,4 +1,4 @@
-package com.marketshrimp.netty.fourth;
+package com.marketshrimp.netty.socket.hearbeat;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -10,7 +10,7 @@ import io.netty.handler.logging.LoggingHandler;
 /**
  * @version v1.0
  * @author: TianXiang
- * @description: 聊天客户端
+ * @description: Socket流管道读写超时事件监听
  * @date: 2019/5/4
  */
 public class IdleEventServer {
