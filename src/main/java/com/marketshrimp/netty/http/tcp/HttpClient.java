@@ -24,7 +24,6 @@ public class HttpClient {
             pw.flush();
             System.out.println("服务器响应内容: " + inputScanner.nextLine());
         }
-
         socket.close();
     }
 

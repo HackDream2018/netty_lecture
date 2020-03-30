@@ -40,6 +40,7 @@ public class DiscardServer {
             workerGroup.shutdownGracefully();
             bossGroup.shutdownGracefully();
         }
+         System.out.println(123);
     }
 
     public static void main(String[] args)throws Exception {

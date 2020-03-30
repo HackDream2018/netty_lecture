@@ -7,7 +7,10 @@ package test;
  * @date: 2019/8/19
  */
 
-public class Animal {
+public class Animal   {
+
+
+    private static final long serialVersionUID = 4256093278952817278L;
     private String name;
 
     public Animal(String name) {
@@ -17,6 +20,7 @@ public class Animal {
     public void eat() {
          System.out.println("Animal eat()");
     }
+
 
     public String getName() {
         return name;
