@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a2a29ef-4929-4914-b5e3-5ea5938ff41b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/thread/CountDownLatchA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/thread/ThreadPoolTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/thread/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/hashmap/LRUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/DataInfo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/DataInfo$Student$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/DataInfo$Student$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/DataInfo$Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/DataInfo$StudentOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/DataInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/MyDataInfo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/MyDataInfo$Person$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/MyDataInfo$Person$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/MyDataInfo$Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/MyDataInfo$PersonOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/MyDataInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/protobuf/com/example/tutorial/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/protobuf/com/example/tutorial/ClientFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/protobuf/com/example/tutorial/ClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/protobuf/com/example/tutorial/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/protobuf/com/example/tutorial/ServerFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/protobuf/com/example/tutorial/ServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/protobuf/com/example/tutorial/ProtoBufTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/TT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/tcp/HttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/tcp/HttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/TT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/TT.java" afterDir="false" />
     </list>
     <list id="cd991eba-8430-4ff3-a6b5-92ce171e0d28" name="忽略" comment="忽略" />
@@ -103,42 +79,20 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/websocket/WebSocketServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/discard/DiscardServer.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test/TT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="37" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/wechatonetomore/WechatClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="43" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/betweenupgrade/SocketServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="44">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="16" />
               <folding>
-                <element signature="e#1400#1401#0" expanded="true" />
-                <element signature="e#1444#1445#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,9 +113,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>MIN_TREEIFY_CAPACITY</find>
-      <find>transfer</find>
-      <find>clear</find>
       <find>@Test</find>
       <find>log</find>
       <find>cache</find>
@@ -189,6 +140,9 @@
       <find>seg</find>
       <find>序列化</find>
       <find>DefaultFuture</find>
+      <find>timeoutInfo</find>
+      <find>removeEldestEntry</find>
+      <find>afterNodeInsertion</find>
     </findStrings>
     <replaceStrings>
       <replace>com.marketshrimp.netty.protobuf.com.example.tutorial</replace>
@@ -214,9 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/channel/internationalchannel/SocketChannelTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/selector/SelectorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/pipe/PipeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/pipe/NioServer2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/io/nio/ClientAndServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/Client.java" />
@@ -243,7 +194,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/discard/DiscardServerFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/wechatonetomore/WeChatServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/discard/DiscardServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/discard/DiscardServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/tcp/DiscardServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/tcp/DiscardServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/tcp/HttpServer.java" />
@@ -252,7 +202,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/tcp/HttpServerFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/tcp/ServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/tcp/HttpClient.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/src/test/java/test/weatherapi/TT.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/weatherapi/AA.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/weatherapi/MyPr.java" />
@@ -264,6 +213,11 @@
         <option value="$PROJECT_DIR$/src/test/java/test/thread/CountDownLatchA.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/test/DBTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/discard/DiscardServer.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/between/SocketCSTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/hashmap/LRUMap.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/hashmap/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/TT.java" />
       </list>
     </option>
@@ -283,10 +237,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="242" />
-    <option name="y" value="255" />
-    <option name="width" value="1080" />
-    <option name="height" value="804" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -296,7 +250,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -382,11 +335,42 @@
               <item name="socket" type="462c0819:PsiDirectoryNode" />
               <item name="wechatonetomore" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty_lecture" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty_lecture" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="hashmap" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,14 +382,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -465,18 +449,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDownLatchA.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LRUMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.hashmap.LRUMap" />
       <module name="netty_lecture_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.thread.*" />
+          <option name="PATTERN" value="test.hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.thread" />
-      <option name="MAIN_CLASS_NAME" value="test.thread.CountDownLatchA" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketCSTest$Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.socket.between.SocketCSTest$Client" />
+      <module name="netty_lecture_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marketshrimp.netty.socket.between.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocketCSTest$Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.netty.socket.between.SocketCSTest$Server" />
+      <module name="netty_lecture_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marketshrimp.netty.socket.between.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -497,52 +504,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadPoolTest.execute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="netty_lecture_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.thread" />
-      <option name="MAIN_CLASS_NAME" value="test.thread.ThreadPoolTest" />
-      <option name="METHOD_NAME" value="execute" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadPoolTest.submit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="netty_lecture_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.thread" />
-      <option name="MAIN_CLASS_NAME" value="test.thread.ThreadPoolTest" />
-      <option name="METHOD_NAME" value="submit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.DBTest" />
+      <item itemvalue="Application.SocketCSTest$Server" />
+      <item itemvalue="Application.SocketCSTest$Client" />
+      <item itemvalue="Application.LRUMap" />
       <item itemvalue="JUnit.TT.tests" />
-      <item itemvalue="JUnit.ThreadPoolTest.execute" />
-      <item itemvalue="JUnit.ThreadPoolTest.submit" />
-      <item itemvalue="JUnit.CountDownLatchA.test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TT.tests" />
+        <item itemvalue="Application.LRUMap" />
+        <item itemvalue="Application.SocketCSTest$Client" />
+        <item itemvalue="Application.SocketCSTest$Server" />
         <item itemvalue="Application.DBTest" />
-        <item itemvalue="JUnit.CountDownLatchA.test" />
-        <item itemvalue="JUnit.ThreadPoolTest.submit" />
-        <item itemvalue="JUnit.ThreadPoolTest.execute" />
       </list>
     </recent_temporary>
   </component>
@@ -682,6 +657,18 @@
       <workItem from="1584849329905" duration="635000" />
       <workItem from="1584875549864" duration="5000" />
       <workItem from="1585042828420" duration="11043000" />
+      <workItem from="1585533642693" duration="851000" />
+      <workItem from="1585534885758" duration="4000" />
+      <workItem from="1585535055275" duration="52000" />
+      <workItem from="1585535253633" duration="217000" />
+      <workItem from="1585535587126" duration="197000" />
+      <workItem from="1585537079096" duration="29000" />
+      <workItem from="1585537467806" duration="11000" />
+      <workItem from="1585537502761" duration="24000" />
+      <workItem from="1585537558496" duration="45000" />
+      <workItem from="1585543638454" duration="614000" />
+      <workItem from="1585626955263" duration="7392000" />
+      <workItem from="1585730356427" duration="758000" />
     </task>
     <task id="LOCAL-00001" summary="netty第一次">
       <created>1557018612914</created>
@@ -1005,43 +992,50 @@
       <option name="project" value="LOCAL" />
       <updated>1579503200059</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="1.20">
+      <created>1585533751633</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1585533751633</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountDownLatchA_test - 2020.03.20 at 17h 45m 30s.xml">
-      <configuration name="CountDownLatchA.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountDownLatchA_test - 2020.03.20 at 17h 48m 47s.xml">
-      <configuration name="CountDownLatchA.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TT_tests - 2020.03.24 at 17h 41m 41s.xml">
+    <history-entry file="TT_tests - 2020.03.31 at 22h 33m 20s.xml">
       <configuration name="TT.tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TT_tests - 2020.03.24 at 17h 41m 58s.xml">
+    <history-entry file="TT_tests - 2020.03.31 at 22h 33m 42s.xml">
       <configuration name="TT.tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TT_tests - 2020.03.24 at 17h 42m 17s.xml">
+    <history-entry file="TT_tests - 2020.03.31 at 22h 34m 06s.xml">
       <configuration name="TT.tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TT_tests - 2020.03.24 at 17h 42m 28s.xml">
+    <history-entry file="TT_tests - 2020.03.31 at 22h 34m 38s.xml">
       <configuration name="TT.tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TT_tests - 2020.03.24 at 17h 47m 18s.xml">
+    <history-entry file="TT_tests - 2020.03.31 at 22h 35m 07s.xml">
       <configuration name="TT.tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TT_tests - 2020.03.24 at 17h 47m 53s.xml">
+    <history-entry file="TT_tests - 2020.03.31 at 22h 35m 53s.xml">
       <configuration name="TT.tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TT_tests - 2020.03.24 at 17h 52m 09s.xml">
+    <history-entry file="TT_tests - 2020.03.31 at 22h 38m 33s.xml">
       <configuration name="TT.tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TT_tests - 2020.03.24 at 17h 52m 30s.xml">
+    <history-entry file="TT_tests - 2020.03.31 at 22h 43m 20s.xml">
+      <configuration name="TT.tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TT_tests - 2020.03.31 at 22h 46m 40s.xml">
+      <configuration name="TT.tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TT_tests - 2020.03.31 at 22h 47m 46s.xml">
       <configuration name="TT.tests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="596017000" />
+    <option name="totallyTimeSpent" value="606211000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1054,9 +1048,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24626866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2761194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1066,7 +1059,7 @@
       <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.31403118" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3207127" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3507795" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1091,7 +1084,7 @@
       <window_info anchor="right" id="UML design tool window" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24626866" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2761194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1101,8 +1094,8 @@
       <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.31403118" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3507795" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3207127" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3507795" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850778" />
@@ -1314,48 +1307,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="142" column="6" selection-start-line="142" selection-start-column="6" selection-end-line="142" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/concurrent/AbstractExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="112" column="21" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/concurrent/locks/LockSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/com/sun/corba/se/impl/orbutil/concurrent/Sync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="295" column="38" selection-start-line="295" selection-start-column="38" selection-end-line="295" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/com/sun/corba/se/impl/orbutil/concurrent/Mutex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="133" column="34" selection-start-line="133" selection-start-column="30" selection-end-line="133" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/jre/lib/rt.jar!/sun/awt/Mutex.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/concurrent/Semaphore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -1432,13 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="730" column="30" selection-start-line="730" selection-start-column="24" selection-end-line="730" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="255" column="23" selection-start-line="255" selection-start-column="23" selection-end-line="255" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1578,31 +1522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="278" column="50" lean-forward="true" selection-start-line="278" selection-start-column="50" selection-end-line="278" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="255" column="17" selection-start-line="255" selection-start-column="17" selection-end-line="255" selection-end-column="17" />
-          <folding>
-            <element signature="e#6283#6284#0" expanded="true" />
-            <element signature="e#6351#6352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/tcp/HttpServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -1628,26 +1547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/TT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="41" lean-forward="true" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/websocket/WebSocketServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1679,13 +1578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/between/SocketCSTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="58" column="34" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/betweenupgrade/SocketClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1693,9 +1585,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/http/websocket/WebSocketServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/discard/DiscardServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/wechatonetomore/WechatClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/betweenupgrade/SocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
+        <state relative-caret-position="374">
           <caret line="22" column="35" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="35" />
           <folding>
             <element signature="e#1400#1401#0" expanded="true" />
@@ -1704,17 +1624,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/wechatonetomore/WechatClient.java">
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="290">
+          <caret line="288" column="12" selection-start-line="288" selection-start-column="12" selection-end-line="288" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/discard/DiscardServer.java">
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="37" selection-end-column="45" />
+        <state relative-caret-position="290">
+          <caret line="584" column="9" selection-start-line="584" selection-start-column="9" selection-end-line="584" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marketshrimp/netty/socket/between/SocketCSTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="238" column="13" lean-forward="true" selection-start-line="238" selection-start-column="13" selection-end-line="238" selection-end-column="13" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="474" column="11" selection-start-line="474" selection-start-column="11" selection-end-line="474" selection-end-column="11" />
+          <folding>
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
+            <element signature="e#21107#21108#0" expanded="true" />
+            <element signature="e#21134#21135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="397" column="11" selection-start-line="397" selection-start-column="11" selection-end-line="397" selection-end-column="11" />
+          <folding>
+            <element signature="e#19667#19668#0" expanded="true" />
+            <element signature="e#19695#19696#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/hashmap/LRUMap.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/hashmap/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Develop/JDK1.8/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-444">
+          <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/TT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

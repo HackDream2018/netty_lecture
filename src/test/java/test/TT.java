@@ -3,7 +3,6 @@ package test;
 import org.junit.Test;
 
 import java.io.*;
-import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @version v1.0
@@ -12,13 +11,10 @@ import java.util.concurrent.locks.ReentrantLock;
  * @date: 2019/6/27
  */
 public class TT{
-
-
     @Test
-    public void tests() throws Exception {
-        ReentrantLock lock = new ReentrantLock();
-        lock.lock();
+    public void test() throws Exception {
     }
+
 
     public static void swap(int a) {
         a = 2;
