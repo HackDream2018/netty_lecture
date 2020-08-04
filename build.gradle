@@ -20,6 +20,9 @@ dependencies {
             "org.apache.thrift:libthrift:0.12.0",
             "org.projectlombok:lombok:1.16.12",
             "junit:junit:4.13-beta-3",
-            "cglib:cglib:3.3.0"
+            "cglib:cglib:3.3.0",
+            "commons-net:commons-net:3.3",
+            "servletapi:servlet-api:2.4-20040521",
+            "com.google.zxing:core:3.3.0"
     )
 }

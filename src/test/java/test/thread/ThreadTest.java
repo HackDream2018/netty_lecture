@@ -50,11 +50,11 @@ public class ThreadTest {
 
     class Task3 implements Callable {
 
-
         @Override
         public Object call() throws Exception {
             return null;
         }
+
     }
 
 }

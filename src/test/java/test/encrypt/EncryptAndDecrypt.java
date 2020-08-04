@@ -1,12 +1,13 @@
 package test.encrypt;
 
 import org.apache.commons.codec.binary.Base64;
+import sun.misc.BASE64Encoder;
 
 import javax.crypto.Cipher;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.security.KeyFactory;
+import java.security.*;
 import java.security.interfaces.RSAPrivateKey;
 import java.security.interfaces.RSAPublicKey;
 import java.security.spec.PKCS8EncodedKeySpec;
@@ -46,22 +47,22 @@ public class EncryptAndDecrypt {
 
     public static void main(String[] args)throws Exception {
 
-       /* KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance(ALGOGRITHM);
+        KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance(ALGOGRITHM);
         keyPairGenerator.initialize(2048);
         KeyPair keyPair = keyPairGenerator.generateKeyPair();
         PublicKey pubKey = (RSAPublicKey)keyPair.getPublic();
         PrivateKey priKey = (RSAPrivateKey)keyPair.getPrivate();
 
         System.out.println("公钥: "+ new BASE64Encoder().encodeBuffer(pubKey.getEncoded()));
-        System.out.println("私钥: "+ new BASE64Encoder().encodeBuffer(priKey.getEncoded()));*/
+        System.out.println("私钥: "+ new BASE64Encoder().encodeBuffer(priKey.getEncoded()));
 
 
-        // 明文加密
+       /* // 明文加密
         String message = "hackdream";
         String ciphertext = encrypt(message, readToString(PUBLIC_KEY_PATH));
         System.out.println("信息密文为:" + ciphertext);
         String cleartext = decrypt(ciphertext, readToString(PRIVATE_KEY_PATH));
-        System.out.println("密文解密后:" + cleartext);
+        System.out.println("密文解密后:" + cleartext);*/
     }
 
 

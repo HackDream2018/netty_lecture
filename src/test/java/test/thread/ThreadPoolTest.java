@@ -16,8 +16,6 @@ public class ThreadPoolTest {
 
     @Test
     public void execute() {
-        ExecutorService executorService = Executors.newCachedThreadPool();
-        executorService.execute(new Task());
     }
 
 
@@ -26,6 +24,9 @@ public class ThreadPoolTest {
      */
     @Test
     public void submit()throws Exception {
+        Executors.newFixedThreadPool(1);
+        Executors.newSingleThreadExecutor();
+        Executors.newCachedThreadPool();
         ExecutorService executorService = Executors.newCachedThreadPool();
         List<FutureTask> futureTasks = new ArrayList<>();
         // 循环体内创建多个任务, 将多个任务交线程池来执行
