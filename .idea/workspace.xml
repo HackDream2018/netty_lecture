@@ -22,69 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a2a29ef-4929-4914-b5e3-5ea5938ff41b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/date/HolidayUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3a2a29ef-4929-4914-b5e3-5ea5938ff41b" name="Default Changelist" comment="7.28">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/quartz/QuartzDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marketshrimp/quartz/SendMsgJob.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/DataInfo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/DataInfo$Student$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/DataInfo$Student$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/DataInfo$Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/DataInfo$StudentOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/DataInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/MyDataInfo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/MyDataInfo$Person$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/MyDataInfo$Person$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/MyDataInfo$Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/MyDataInfo$PersonOrBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/tutorial/MyDataInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/fifthWebSocket/WebSocketServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/fifthWebSocket/WebSocketServerFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/fifthWebSocket/WebSocketServerTextHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/first/HTTPServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/first/HTTPServerFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/first/HTTPServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/fourth/IdleEventFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/fourth/IdleEventHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/fourth/IdleEventHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/fourth/IdleEventServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/protobuf/com/example/tutorial/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/protobuf/com/example/tutorial/ClientFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/protobuf/com/example/tutorial/ClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/protobuf/com/example/tutorial/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/protobuf/com/example/tutorial/ServerFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/protobuf/com/example/tutorial/ServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/second/SocketClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/second/SocketClientFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/second/SocketClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/second/SocketServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/second/SocketServerFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/second/SocketServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/third/WeChatClientFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/third/WeChatClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/third/WeChatServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/third/WeChatServerFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/third/WeChatServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/netty/third/WechatClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/marketshrimp/protobuf/com/example/tutorial/ProtoBufTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/test/TT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <list id="cd991eba-8430-4ff3-a6b5-92ce171e0d28" name="忽略" comment="忽略" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,6 +70,11 @@
                 <item name="netty_lecture" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="netty_lecture" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -178,7 +125,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SeeplnFoundation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DynamicForm" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -187,7 +134,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -213,13 +160,26 @@
       <recent name="C:\IDEA\workspace\netty_lecture\src\main\java\com\marketshrimp\protobuf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HolidayUtils">
+  <component name="RunManager" selected="Application.QuartzDemo">
     <configuration name="HolidayUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.date.HolidayUtils" />
       <module name="netty_lecture_test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.date.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuartzDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.marketshrimp.quartz.QuartzDemo" />
+      <module name="netty_lecture_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marketshrimp.quartz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,26 +224,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenAndClose" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;test.designpattern.sevenidea.openandclose.violationopenandclose.OpenAndClose&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="TT.main" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -305,19 +245,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.OpenAndClose" />
-      <item itemvalue="Gradle.TT.main" />
       <item itemvalue="Application.WorkdayUtils" />
       <item itemvalue="Application.WorkDayTest" />
       <item itemvalue="Application.HolidayUtils" />
+      <item itemvalue="Gradle.TT.main" />
+      <item itemvalue="Application.QuartzDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuartzDemo" />
         <item itemvalue="Application.HolidayUtils" />
         <item itemvalue="Application.WorkDayTest" />
         <item itemvalue="Application.WorkdayUtils" />
         <item itemvalue="Gradle.TT.main" />
-        <item itemvalue="Gradle.OpenAndClose" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +322,9 @@
       <workItem from="1564889141630" duration="107000" />
       <workItem from="1564889267193" duration="4300000" />
       <workItem from="1600856183790" duration="699000" />
-      <workItem from="1602636317649" duration="8830000" />
+      <workItem from="1602636317649" duration="9375000" />
+      <workItem from="1602732646290" duration="1105000" />
+      <workItem from="1602839984028" duration="4433000" />
     </task>
     <task id="LOCAL-00001" summary="netty第一次">
       <created>1557018612914</created>
@@ -503,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564314974715</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="7.28">
+      <created>1602654704165</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602654704165</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -576,46 +525,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="7.28" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1602910455789">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1602910455789" />
     <state width="420" height="438" key="DebuggerActiveHint" timestamp="1602638211858">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="420" height="438" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1602638211858" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1602644656382">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1602908644827">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602644656382" />
-    <state width="1237" height="80" key="GridCell.Tab.0.bottom" timestamp="1602642357713">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602908644827" />
+    <state width="1237" height="138" key="GridCell.Tab.0.bottom" timestamp="1602910224333">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="80" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602642357713" />
-    <state width="1237" height="80" key="GridCell.Tab.0.center" timestamp="1602642357713">
+    <state width="1237" height="138" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602910224333" />
+    <state width="1237" height="138" key="GridCell.Tab.0.center" timestamp="1602910224333">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="80" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602642357713" />
-    <state width="1237" height="80" key="GridCell.Tab.0.left" timestamp="1602642357713">
+    <state width="1237" height="138" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602910224333" />
+    <state width="1237" height="138" key="GridCell.Tab.0.left" timestamp="1602910224333">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="80" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602642357713" />
-    <state width="1237" height="80" key="GridCell.Tab.0.right" timestamp="1602642357713">
+    <state width="1237" height="138" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602910224333" />
+    <state width="1237" height="138" key="GridCell.Tab.0.right" timestamp="1602910224333">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="80" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602642357713" />
-    <state width="1237" height="103" key="GridCell.Tab.1.bottom" timestamp="1602639779957">
+    <state width="1237" height="138" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602910224333" />
+    <state width="1237" height="103" key="GridCell.Tab.1.bottom" timestamp="1602655234176">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="103" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602639779957" />
-    <state width="1237" height="103" key="GridCell.Tab.1.center" timestamp="1602639779957">
+    <state width="1237" height="103" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602655234176" />
+    <state width="1237" height="103" key="GridCell.Tab.1.center" timestamp="1602655234176">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="103" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1602639779957" />
-    <state width="1237" height="103" key="GridCell.Tab.1.left" timestamp="1602639779957">
+    <state width="1237" height="103" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1602655234176" />
+    <state width="1237" height="103" key="GridCell.Tab.1.left" timestamp="1602655234176">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="103" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1602639779957" />
-    <state width="1237" height="103" key="GridCell.Tab.1.right" timestamp="1602639779957">
+    <state width="1237" height="103" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1602655234176" />
+    <state width="1237" height="103" key="GridCell.Tab.1.right" timestamp="1602655234176">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="103" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1602639779957" />
+    <state width="1237" height="103" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1602655234176" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1602655139394">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1602655139394" />
     <state x="166" y="40" width="949" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602637640983">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -654,93 +611,6 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>netty_lecture</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
