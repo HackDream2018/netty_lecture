@@ -17,7 +17,7 @@ public class QuartzDemo {
             //创建任务器：定义任务细节
             JobDetail jobDetail = JobBuilder.newJob(SendMsgJob.class).withIdentity("sendMsgJob", "group1").build();
             // 每天早上8:30
-            CronScheduleBuilder scheduleBuilder = CronScheduleBuilder.cronSchedule("0 30 8 1/1 * ? *");
+            CronScheduleBuilder scheduleBuilder = CronScheduleBuilder.cronSchedule("0/5 * * * * ? *");
             //定义触发器
             Trigger trigger=TriggerBuilder.newTrigger().withSchedule(scheduleBuilder).build();
 
